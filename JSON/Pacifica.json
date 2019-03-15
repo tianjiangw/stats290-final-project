@@ -1,0 +1,891 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Pacifica",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.61000061",
+		"lon":"-122.48999786",
+		"zip":"94044",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:94044.1.99999",
+		"requesturl":"US/CA/Pacifica.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Pacifica.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"San Francisco", "state":"CA", "country":"US", "icao":"KSFO", "lat":"37.61999893", "lon":"-122.37000275" }
+		,{ "city":"Half Moon Bay", "state":"CA", "country":"US", "icao":"KHAF", "lat":"37.50999832", "lon":"-122.50000000" }
+		,{ "city":"San Carlos", "state":"CA", "country":"US", "icao":"KSQL", "lat":"37.50999832", "lon":"-122.25000000" }
+		,{ "city":"Oakland", "state":"CA", "country":"US", "icao":"KOAK", "lat":"37.72000122", "lon":"-122.22000122" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Vallemar-Piedmont",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF66",
+		"lat":37.611347,
+		"lon":-122.482689,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Vallemar",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF83",
+		"lat":37.610416,
+		"lon":-122.478943,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"West Fairway Park",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF21",
+		"lat":37.621006,
+		"lon":-122.486420,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Driftwood Circle",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF97",
+		"lat":37.598324,
+		"lon":-122.486481,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Upper Vallemar",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF47",
+		"lat":37.610016,
+		"lon":-122.472214,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Terra Nova Valley",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF70",
+		"lat":37.596069,
+		"lon":-122.479057,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Linda Mar",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF34",
+		"lat":37.593132,
+		"lon":-122.485397,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Crespi @ Lerida (Linda Mar)",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF68",
+		"lat":37.593563,
+		"lon":-122.481438,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Park Pacifica - 124x Lerida",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF82",
+		"lat":37.594028,
+		"lon":-122.478539,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Frances Ave., Sharp Park",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF95",
+		"lat":37.628666,
+		"lon":-122.487839,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Pedro Point",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF101",
+		"lat":37.594273,
+		"lon":-122.508904,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Linda Mar",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF57",
+		"lat":37.588375,
+		"lon":-122.497070,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Linda Mar Ridge",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF42",
+		"lat":37.587299,
+		"lon":-122.482483,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Sharp Park",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF36",
+		"lat":37.635036,
+		"lon":-122.485397,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Back of the Valley",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF127",
+		"lat":37.591385,
+		"lon":-122.466103,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Sun Valley",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF80",
+		"lat":37.588913,
+		"lon":-122.468391,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Park Pacifica",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF46",
+		"lat":37.587353,
+		"lon":-122.469833,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Pacifica Linda Mar Valley",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF100",
+		"lat":37.580811,
+		"lon":-122.481667,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Linda Mar Valley",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF98",
+		"lat":37.580811,
+		"lon":-122.481667,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Pacific Heights",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR32",
+		"lat":37.628029,
+		"lon":-122.458344,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Portola Highlands",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR15",
+		"lat":37.624126,
+		"lon":-122.451912,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Pacific Heights - Skyline College Area",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR27",
+		"lat":37.631042,
+		"lon":-122.456177,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Inverness Drive",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF89",
+		"lat":37.646313,
+		"lon":-122.474060,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Pacifica Westview-Pacific Highlands",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF5",
+		"lat":37.647118,
+		"lon":-122.475708,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Monte Verde",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR34",
+		"lat":37.636536,
+		"lon":-122.453819,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Monte Verde Area, San Bruno",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR2",
+		"lat":37.635254,
+		"lon":-122.451424,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Crestmoor II",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR38",
+		"lat":37.622540,
+		"lon":-122.442421,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Crestmoor 3",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR41",
+		"lat":37.618492,
+		"lon":-122.438469,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Pacifica Manor",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF128",
+		"lat":37.653156,
+		"lon":-122.483452,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Crestmoor",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR31",
+		"lat":37.621578,
+		"lon":-122.435242,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"On the Hill",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF15",
+		"lat":37.653809,
+		"lon":-122.473000,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Crestmoor",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR3",
+		"lat":37.609894,
+		"lon":-122.431709,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Vallemar",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF121",
+		"lat":37.612560,
+		"lon":-122.479240,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Park Pacifica",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF103",
+		"lat":37.601002,
+		"lon":-122.454498,
+		"distance_km":3,
+		"distance_mi":1
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Pacifica, CA",
+		"city":"Pacifica",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94044",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.61000061",
+		"longitude":"-122.48999786",
+		"elevation":"25.0"
+		},
+		"observation_location": {
+		"full":"San Francisco, California",
+		"city":"San Francisco",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.61",
+		"longitude":"-122.48",
+		"elevation":"266 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAPACIF66",
+		"observation_time":"Last Updated on February 24, 12:55 PM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 12:55:54 -0800",
+		"observation_epoch":"1551041754",
+		"local_time_rfc822":"Sun, 24 Feb 2019 12:56:03 -0800",
+		"local_epoch":"1551041763",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"55 F (12.8 C)",
+		"temp_f":55,
+		"temp_c":12.8,
+		"relative_humidity":"63%",
+		"wind_string":"From the NNW at 2 MPH Gusting to 3.0 MPH",
+		"wind_dir":"NNW",
+		"wind_degrees":338,
+		"wind_mph":2,
+		"wind_gust_mph":"3.0",
+		"wind_kph":3.2,
+		"wind_gust_kph":"4.8",
+		"pressure_mb":"1023",
+		"pressure_in":"30.22",
+		"pressure_trend":"-",
+		"dewpoint_string":"43 F (6 C)",
+		"dewpoint_f":43,
+		"dewpoint_c":6,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"55 F (12.8 C)",
+		"feelslike_f":"55",
+		"feelslike_c":"12.8",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"3","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Pacifica.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAPACIF66",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.611347,-122.482689",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"11:49 AM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Cloudy. High 58F. Winds SW at 10 to 15 mph.",
+		"fcttext_metric":"Generally cloudy. High near 15C. Winds SW at 15 to 25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Cloudy. Low 48F. Winds S at 10 to 15 mph.",
+		"fcttext_metric":"Overcast. Low 9C. Winds S at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Windy with morning showers evolving to a steady, soaking rain in the afternoon. High around 55F. Winds S at 25 to 35 mph. Chance of rain 90%. Rainfall around a half an inch.",
+		"fcttext_metric":"Windy with morning showers evolving to a steady, soaking rain in the afternoon. High 13C. Winds S at 40 to 55 km/h. Chance of rain 90%. Rainfall near 12mm.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Cloudy and windy with periods of rain. Low 54F. Winds S at 25 to 35 mph. Chance of rain 90%. 1 to 2 inches of rain expected.",
+		"fcttext_metric":"Windy with periods of rain. Low 12C. Winds S at 40 to 55 km/h. Chance of rain 90%. 25 to 50mm of rain expected.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Windy with periods of rain. High 56F. Winds S at 25 to 35 mph. Chance of rain 100%. Rainfall near an inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"Windy with periods of rain. High 14C. Winds S at 40 to 55 km/h. Chance of rain 100%. Rainfall may reach 25mm. Locally heavy rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Windy with rain early...thunderstorms developing late. Low 53F. Winds S at 25 to 35 mph. Chance of rain 100%.",
+		"fcttext_metric":"Windy with rain...thunderstorms likely by morning. Low 12C. Winds S at 40 to 55 km/h. Chance of rain 100%.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Overcast with rain showers at times. High 57F. Winds SSW at 10 to 20 mph. Chance of rain 60%.",
+		"fcttext_metric":"Considerable cloudiness with occasional rain showers. High 14C. Winds SSW at 15 to 30 km/h. Chance of rain 60%.",
+		"pop":"60"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"A few showers early with overcast skies late. Low 48F. Winds W at 10 to 15 mph. Chance of rain 30%.",
+		"fcttext_metric":"A few showers early with overcast skies late. Low 9C. Winds W at 15 to 25 km/h. Chance of rain 30%.",
+		"pop":"30"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SW",
+		"degrees": 232
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "SW",
+		"degrees": 232
+		},
+		"avehumidity": 67,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":90,
+		"qpf_allday": {
+		"in": 1.94,
+		"mm": 49
+		},
+		"qpf_day": {
+		"in": 0.59,
+		"mm": 15
+		},
+		"qpf_night": {
+		"in": 1.35,
+		"mm": 34
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 35,
+		"kph": 56,
+		"dir": "S",
+		"degrees": 179
+		},
+		"avewind": {
+		"mph": 26,
+		"kph": 42,
+		"dir": "S",
+		"degrees": 179
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"56",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.74,
+		"mm": 44
+		},
+		"qpf_day": {
+		"in": 1.02,
+		"mm": 26
+		},
+		"qpf_night": {
+		"in": 0.71,
+		"mm": 18
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 35,
+		"kph": 56,
+		"dir": "S",
+		"degrees": 177
+		},
+		"avewind": {
+		"mph": 28,
+		"kph": 45,
+		"dir": "S",
+		"degrees": 177
+		},
+		"avehumidity": 85,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":60,
+		"qpf_allday": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "SSW",
+		"degrees": 209
+		},
+		"avewind": {
+		"mph": 16,
+		"kph": 26,
+		"dir": "SSW",
+		"degrees": 209
+		},
+		"avehumidity": 83,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

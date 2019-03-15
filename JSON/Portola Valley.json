@@ -1,0 +1,902 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Portola Valley",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.38000107",
+		"lon":"-122.23999786",
+		"zip":"94028",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:94028.1.99999",
+		"requesturl":"US/CA/Portola_Valley.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Portola_Valley.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"San Carlos", "state":"CA", "country":"US", "icao":"KSQL", "lat":"37.50999832", "lon":"-122.25000000" }
+		,{ "city":"Palo Alto", "state":"CA", "country":"US", "icao":"KPAO", "lat":"37.45999908", "lon":"-122.11000061" }
+		,{ "city":"Moffett NAS", "state":"CA", "country":"US", "icao":"KNUQ", "lat":"37.40999985", "lon":"-122.05000305" }
+		,{ "city":"Half Moon Bay", "state":"CA", "country":"US", "icao":"KHAF", "lat":"37.50999832", "lon":"-122.50000000" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Portola Valley - Upper Wayside",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO74",
+		"lat":37.379471,
+		"lon":-122.244072,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Woodside Highlands SMC",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO48",
+		"lat":37.383289,
+		"lon":-122.237480,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Woodside Highlands",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO39",
+		"lat":37.385025,
+		"lon":-122.236450,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Wyndham Dr",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO82",
+		"lat":37.385521,
+		"lon":-122.232918,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Portola RD @ Hayfields RD",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO36",
+		"lat":37.389057,
+		"lon":-122.239517,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Family Farm Rd",
+		"city":"Redwood City",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAREDWO109",
+		"lat":37.397251,
+		"lon":-122.242104,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Skywood Acres OG",
+		"city":"Redwood City",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAREDWO72",
+		"lat":37.388508,
+		"lon":-122.263557,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Westridge / Golden Hills",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO15",
+		"lat":37.390213,
+		"lon":-122.215637,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Central Portola Valley",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO4",
+		"lat":37.387234,
+		"lon":-122.210327,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Lauriston",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO35",
+		"lat":37.355377,
+		"lon":-122.232857,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Jasper Ridge Biological Preserve",
+		"city":"Woodside",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAWOODS19",
+		"lat":37.405300,
+		"lon":-122.241638,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"JRBP TY-1",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO73",
+		"lat":37.405880,
+		"lon":-122.237907,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Alpine Hills",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO78",
+		"lat":37.382500,
+		"lon":-122.204407,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Alpine Hills",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO1",
+		"lat":37.386002,
+		"lon":-122.204002,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Woodside",
+		"city":"Redwood City",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAREDWO172",
+		"lat":37.353756,
+		"lon":-122.258797,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Portola Valley",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO6",
+		"lat":37.388317,
+		"lon":-122.203247,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Portola Valley",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO58",
+		"lat":37.373550,
+		"lon":-122.200256,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Alpine Hills",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO7",
+		"lat":37.386799,
+		"lon":-122.199379,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Ladera",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO22",
+		"lat":37.397514,
+		"lon":-122.201149,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Webb Ranch",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO49",
+		"lat":37.405628,
+		"lon":-122.206718,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Blue Oaks",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO33",
+		"lat":37.354023,
+		"lon":-122.203918,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Los Trancos Woods",
+		"city":"Palo Alto",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPALOA124",
+		"lat":37.369911,
+		"lon":-122.192413,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Woodside",
+		"city":"Woodside",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAWOODS6",
+		"lat":37.420151,
+		"lon":-122.249001,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Arastradero Preserve",
+		"city":"Palo Alto",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPALOA135",
+		"lat":37.381378,
+		"lon":-122.187622,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Feltlake",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO77",
+		"lat":37.385548,
+		"lon":-122.187683,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Oakhill",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO56",
+		"lat":37.417198,
+		"lon":-122.270493,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Palo Alto Foothills Park",
+		"city":"Palo Alto",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPALOA28",
+		"lat":37.363365,
+		"lon":-122.186371,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Skywood Acres",
+		"city":"Redwood City",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAREDWO121",
+		"lat":37.391895,
+		"lon":-122.269974,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Sky Londa",
+		"city":"Redwood City",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAREDWO130",
+		"lat":37.380100,
+		"lon":-122.262016,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Sky Londa",
+		"city":"Woodside",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAWOODS44",
+		"lat":37.378376,
+		"lon":-122.258324,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Woodside Hills",
+		"city":"Woodside",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAWOODS28",
+		"lat":37.370842,
+		"lon":-122.259178,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Skyline_Resort",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO61",
+		"lat":37.391083,
+		"lon":-122.276917,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Bear Gulch",
+		"city":"Woodside",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAWOODS37",
+		"lat":37.402031,
+		"lon":-122.288872,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Kings Mountain - Allen Road",
+		"city":"Redwood City",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAREDWO186",
+		"lat":37.385700,
+		"lon":-122.292236,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Table Mesa",
+		"city":"Portola Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPORTO40",
+		"lat":37.379780,
+		"lon":-122.244400,
+		"distance_km":0,
+		"distance_mi":0
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Portola Valley, CA",
+		"city":"Portola Valley",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94028",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.38000107",
+		"longitude":"-122.23999786",
+		"elevation":"140.5"
+		},
+		"observation_location": {
+		"full":"San Carlos, California",
+		"city":"San Carlos",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.38",
+		"longitude":"-122.24",
+		"elevation":"1000 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAPORTO74",
+		"observation_time":"Last Updated on February 24, 12:52 PM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 12:52:51 -0800",
+		"observation_epoch":"1551041571",
+		"local_time_rfc822":"Sun, 24 Feb 2019 12:53:18 -0800",
+		"local_epoch":"1551041598",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"55.8 F (13.2 C)",
+		"temp_f":55.8,
+		"temp_c":13.2,
+		"relative_humidity":"51%",
+		"wind_string":"From the SW at 4.47 MPH Gusting to 7.6 MPH",
+		"wind_dir":"SW",
+		"wind_degrees":230,
+		"wind_mph":4.47,
+		"wind_gust_mph":"7.6",
+		"wind_kph":7.2,
+		"wind_gust_kph":"12.2",
+		"pressure_mb":"1024",
+		"pressure_in":"30.23",
+		"pressure_trend":"-",
+		"dewpoint_string":"38 F (3 C)",
+		"dewpoint_f":38,
+		"dewpoint_c":3,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"55.8 F (13.2 C)",
+		"feelslike_f":"55.8",
+		"feelslike_c":"13.2",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"387",
+		"UV":"0.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Portola_Valley.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAPORTO74",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.379471,-122.244072",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"12:03 PM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Cloudy skies. High 57F. Winds WSW at 5 to 10 mph.",
+		"fcttext_metric":"Overcast. High around 15C. Winds WSW at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Cloudy skies. Low 43F. Winds S at 5 to 10 mph.",
+		"fcttext_metric":"Overcast. Low 6C. Winds S at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Rain. Becoming windy in the afternoon. High 53F. Winds S at 20 to 30 mph. Chance of rain 90%. Rainfall around a half an inch.",
+		"fcttext_metric":"Showers in the morning, then becoming windy with a steady rain in the afternoon. High 11C. Winds S at 30 to 50 km/h. Chance of rain 90%. Rainfall around 12mm.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Windy at times with periods of rain. Low 51F. Winds S at 20 to 30 mph. Chance of rain 90%. 1 to 2 inches of rain expected.",
+		"fcttext_metric":"Windy at times with periods of rain. Low near 10C. Winds S at 30 to 50 km/h. Chance of rain 90%. 25 to 50mm of rain expected.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Windy with rain likely. High 54F. Winds S at 20 to 30 mph. Chance of rain 100%. Rainfall near an inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"Periods of rain. Becoming windy in the afternoon. High 12C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall near 25mm. Locally heavy rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Windy with rain. Thunderstorms possible...mainly late. Low 51F. Winds S at 20 to 30 mph. Chance of rain 100%.",
+		"fcttext_metric":"Windy. A steady rain early with showers and perhaps a rumble of thunder developing late. Low near 10C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall may reach 25mm.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Showers early becoming a steady light rain later in the day. High 57F. Winds SSW at 10 to 20 mph. Chance of rain 70%.",
+		"fcttext_metric":"Occasional light rain. High 14C. Winds SSW at 15 to 30 km/h. Chance of rain 70%.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Showers in the evening, then cloudy overnight. Low 44F. Winds WSW at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Rain showers early with overcast skies late. Low 7C. Winds WSW at 10 to 15 km/h. Chance of rain 40%.",
+		"pop":"50"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"43",
+		"celsius":"6"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WSW",
+		"degrees": 240
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "WSW",
+		"degrees": 240
+		},
+		"avehumidity": 63,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"low": {
+		"fahrenheit":"51",
+		"celsius":"11"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":90,
+		"qpf_allday": {
+		"in": 2.03,
+		"mm": 52
+		},
+		"qpf_day": {
+		"in": 0.49,
+		"mm": 12
+		},
+		"qpf_night": {
+		"in": 1.54,
+		"mm": 39
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "S",
+		"degrees": 186
+		},
+		"avewind": {
+		"mph": 22,
+		"kph": 35,
+		"dir": "S",
+		"degrees": 186
+		},
+		"avehumidity": 80,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"low": {
+		"fahrenheit":"51",
+		"celsius":"11"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.81,
+		"mm": 46
+		},
+		"qpf_day": {
+		"in": 0.97,
+		"mm": 25
+		},
+		"qpf_night": {
+		"in": 0.84,
+		"mm": 21
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "S",
+		"degrees": 178
+		},
+		"avewind": {
+		"mph": 22,
+		"kph": 35,
+		"dir": "S",
+		"degrees": 178
+		},
+		"avehumidity": 85,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"44",
+		"celsius":"7"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":70,
+		"qpf_allday": {
+		"in": 0.17,
+		"mm": 4
+		},
+		"qpf_day": {
+		"in": 0.12,
+		"mm": 3
+		},
+		"qpf_night": {
+		"in": 0.05,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "SSW",
+		"degrees": 204
+		},
+		"avewind": {
+		"mph": 13,
+		"kph": 21,
+		"dir": "SSW",
+		"degrees": 204
+		},
+		"avehumidity": 84,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

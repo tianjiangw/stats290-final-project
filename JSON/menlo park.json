@@ -1,0 +1,737 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Menlo Park",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.45000076",
+		"lon":"-122.18000031",
+		"zip":"94025",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:94025.1.99999",
+		"requesturl":"US/CA/Menlo_Park.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Menlo_Park.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Palo Alto", "state":"CA", "country":"US", "icao":"KPAO", "lat":"37.45999908", "lon":"-122.11000061" }
+		,{ "city":"San Carlos", "state":"CA", "country":"US", "icao":"KSQL", "lat":"37.50999832", "lon":"-122.25000000" }
+		,{ "city":"Moffett NAS", "state":"CA", "country":"US", "icao":"KNUQ", "lat":"37.40999985", "lon":"-122.05000305" }
+		,{ "city":"Hayward", "state":"CA", "country":"US", "icao":"KHWD", "lat":"37.65999985", "lon":"-122.12000275" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Allied arts",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO76",
+		"lat":37.447701,
+		"lon":-122.175636,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Allied Arts",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO7",
+		"lat":37.445000,
+		"lon":-122.180000,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Allied Arts",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO64",
+		"lat":37.443848,
+		"lon":-122.176453,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"El Camino, Sunnyvale",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO41",
+		"lat":37.454971,
+		"lon":-122.186722,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Downtown Palo Alto",
+		"city":"Palo Alto",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPALOA151",
+		"lat":37.443947,
+		"lon":-122.164467,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Menlo Oaks",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO69",
+		"lat":37.466343,
+		"lon":-122.170036,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"West Atherton",
+		"city":"Atherton",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAATHER4",
+		"lat":37.449924,
+		"lon":-122.203850,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"The Oaks",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO53",
+		"lat":37.434383,
+		"lon":-122.194893,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Willows",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO81",
+		"lat":37.458687,
+		"lon":-122.156197,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"University South",
+		"city":"Palo Alto",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPALOA122",
+		"lat":37.446381,
+		"lon":-122.154053,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"The Oaks",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO66",
+		"lat":37.432934,
+		"lon":-122.195824,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Sharon Heights",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO78",
+		"lat":37.430153,
+		"lon":-122.196579,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Atherton",
+		"city":"Atherton",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAATHER23",
+		"lat":37.474110,
+		"lon":-122.186707,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"almost Professorville",
+		"city":"Palo Alto",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPALOA115",
+		"lat":37.443550,
+		"lon":-122.149353,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"West Menlo Park",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO9",
+		"lat":37.433952,
+		"lon":-122.204773,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"North Fair Oaks",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO82",
+		"lat":37.475971,
+		"lon":-122.187920,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"North Fair Oaks",
+		"city":"Redwood City",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAREDWO124",
+		"lat":37.470253,
+		"lon":-122.204910,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Palo Alto Park",
+		"city":"Palo Alto",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPALOA143",
+		"lat":37.468590,
+		"lon":-122.151138,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Friendly Acres",
+		"city":"Redwood City",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAREDWO58",
+		"lat":37.480469,
+		"lon":-122.185280,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Sharon Heights, Menlo Park",
+		"city":"Menlo Park",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMENLO51",
+		"lat":37.427963,
+		"lon":-122.208611,
+		"distance_km":3,
+		"distance_mi":2
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Menlo Park, CA",
+		"city":"Menlo Park",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94025",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.45000076",
+		"longitude":"-122.18000031",
+		"elevation":"29.9"
+		},
+		"observation_location": {
+		"full":"San Carlos, California",
+		"city":"San Carlos",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.45",
+		"longitude":"-122.18",
+		"elevation":"39 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAMENLO76",
+		"observation_time":"Last Updated on February 24, 10:12 AM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 10:12:09 -0800",
+		"observation_epoch":"1551031929",
+		"local_time_rfc822":"Sun, 24 Feb 2019 10:12:15 -0800",
+		"local_epoch":"1551031935",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"56.1 F (13.4 C)",
+		"temp_f":56.1,
+		"temp_c":13.4,
+		"relative_humidity":"64%",
+		"wind_string":"Calm",
+		"wind_dir":"SSW",
+		"wind_degrees":194,
+		"wind_mph":0.2,
+		"wind_gust_mph":"1.1",
+		"wind_kph":0,
+		"wind_gust_kph":"1.8",
+		"pressure_mb":"1025",
+		"pressure_in":"30.26",
+		"pressure_trend":"-",
+		"dewpoint_string":"44 F (7 C)",
+		"dewpoint_f":44,
+		"dewpoint_c":7,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"56.1 F (13.4 C)",
+		"feelslike_f":"56.1",
+		"feelslike_c":"13.4",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"281",
+		"UV":"3.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Menlo_Park.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAMENLO76",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.447701,-122.175636",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"9:30 AM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Cloudy skies. High 57F. Winds light and variable.",
+		"fcttext_metric":"Cloudy. High 14C. Winds light and variable.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Cloudy. Low around 45F. Winds light and variable.",
+		"fcttext_metric":"Cloudy. Low 7C. Winds light and variable.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Periods of rain. High 57F. Winds S at 10 to 20 mph. Chance of rain 90%. Rainfall around a quarter of an inch.",
+		"fcttext_metric":"Rain showers in the morning will evolve into a more steady rain in the afternoon. High 14C. Winds S at 15 to 30 km/h. Chance of rain 90%. Rainfall around 6mm.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Cloudy with periods of rain. Low 53F. Winds S at 10 to 20 mph. Chance of rain 80%. Rainfall possibly over one inch.",
+		"fcttext_metric":"Periods of rain. Low 12C. Winds S at 15 to 30 km/h. Chance of rain 80%. Rainfall near 25mm.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Periods of rain. High 58F. Winds S at 15 to 25 mph. Chance of rain 100%. Rainfall around a half an inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"Cloudy with periods of rain. High near 15C. Winds S at 25 to 40 km/h. Chance of rain 100%. Rainfall near 12mm. Locally heavy rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Rain early...then remaining cloudy with thundershowers developing late. Low 53F. Winds S at 15 to 25 mph. Chance of rain 100%.",
+		"fcttext_metric":"A steady rain early. Showers with perhaps a rumble of thunder developing late. Low 12C. Winds S at 25 to 40 km/h. Chance of rain 100%.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Cloudy with showers. High near 60F. Winds SSW at 10 to 15 mph. Chance of rain 60%.",
+		"fcttext_metric":"Cloudy with showers. High 16C. Winds SSW at 15 to 25 km/h. Chance of rain 60%.",
+		"pop":"60"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Showers in the evening, then cloudy overnight. Low 46F. Winds WSW at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Showers in the evening, then cloudy overnight. Low 8C. Winds WSW at 10 to 15 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"45",
+		"celsius":"7"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WNW",
+		"degrees": 284
+		},
+		"avewind": {
+		"mph": 5,
+		"kph": 8,
+		"dir": "WNW",
+		"degrees": 284
+		},
+		"avehumidity": 64,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":90,
+		"qpf_allday": {
+		"in": 1.42,
+		"mm": 36
+		},
+		"qpf_day": {
+		"in": 0.35,
+		"mm": 9
+		},
+		"qpf_night": {
+		"in": 1.07,
+		"mm": 27
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "S",
+		"degrees": 173
+		},
+		"avewind": {
+		"mph": 16,
+		"kph": 26,
+		"dir": "S",
+		"degrees": 173
+		},
+		"avehumidity": 75,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.42,
+		"mm": 36
+		},
+		"qpf_day": {
+		"in": 0.72,
+		"mm": 18
+		},
+		"qpf_night": {
+		"in": 0.70,
+		"mm": 18
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "S",
+		"degrees": 171
+		},
+		"avewind": {
+		"mph": 18,
+		"kph": 29,
+		"dir": "S",
+		"degrees": 171
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"60",
+		"celsius":"16"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":60,
+		"qpf_allday": {
+		"in": 0.14,
+		"mm": 4
+		},
+		"qpf_day": {
+		"in": 0.10,
+		"mm": 3
+		},
+		"qpf_night": {
+		"in": 0.04,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SSW",
+		"degrees": 201
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "SSW",
+		"degrees": 201
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

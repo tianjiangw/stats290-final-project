@@ -1,0 +1,770 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Milpitas",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.43999863",
+		"lon":"-121.88999939",
+		"zip":"95035",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:95035.1.99999",
+		"requesturl":"US/CA/Milpitas.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Milpitas.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"San Jose", "state":"CA", "country":"US", "icao":"KSJC", "lat":"37.36000061", "lon":"-121.93000031" }
+		,{ "city":"San Jose Reid", "state":"CA", "country":"US", "icao":"KRHV", "lat":"37.33000183", "lon":"-121.81999969" }
+		,{ "city":"Moffett NAS", "state":"CA", "country":"US", "icao":"KNUQ", "lat":"37.40999985", "lon":"-122.05000305" }
+		,{ "city":"Palo Alto", "state":"CA", "country":"US", "icao":"KPAO", "lat":"37.45999908", "lon":"-122.11000061" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Milpitas",
+		"city":"Milpitas",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMILPI13",
+		"lat":37.444763,
+		"lon":-121.881538,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Michael Ct. Milpitas",
+		"city":"Milpitas",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMILPI30",
+		"lat":37.446140,
+		"lon":-121.882881,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Temple Ave",
+		"city":"Milpitas",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMILPI21",
+		"lat":37.440502,
+		"lon":-121.876648,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Milpitas Foothills",
+		"city":"Milpitas",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMILPI28",
+		"lat":37.433163,
+		"lon":-121.864830,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Sunnyhills",
+		"city":"Milpitas",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMILPI34",
+		"lat":37.456944,
+		"lon":-121.906448,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Scott Creek Terrace",
+		"city":"Fremont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAFREMO76",
+		"lat":37.466480,
+		"lon":-121.910927,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Ponderosa Heights",
+		"city":"Fremont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAFREMO33",
+		"lat":37.472733,
+		"lon":-121.894814,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Berryessa",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO818",
+		"lat":37.407413,
+		"lon":-121.876022,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Cropley",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO573",
+		"lat":37.411449,
+		"lon":-121.864067,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Balmoral",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO670",
+		"lat":37.406734,
+		"lon":-121.864883,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Warm Springs",
+		"city":"Fremont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAFREMO26",
+		"lat":37.475258,
+		"lon":-121.913353,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Berryessa",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO138",
+		"lat":37.411400,
+		"lon":-121.854912,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Berryessa",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO539",
+		"lat":37.403656,
+		"lon":-121.867973,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"San Jose",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO751",
+		"lat":37.398186,
+		"lon":-121.920807,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"server room",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO936",
+		"lat":37.397423,
+		"lon":-121.921593,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Ruskin",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO616",
+		"lat":37.397068,
+		"lon":-121.859077,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Berryessa",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO17",
+		"lat":37.391171,
+		"lon":-121.866493,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Vineyards",
+		"city":"Fremont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAFREMO96",
+		"lat":37.490810,
+		"lon":-121.910698,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Heritage Estates - Fremont",
+		"city":"Fremont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAFREMO166",
+		"lat":37.498806,
+		"lon":-121.920441,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Warm Springs Hills",
+		"city":"Fremont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAFREMO121",
+		"lat":37.502186,
+		"lon":-121.910263,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"ThePatch747",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO798",
+		"lat":37.384647,
+		"lon":-121.843018,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Alum Rock Park",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO567",
+		"lat":37.393692,
+		"lon":-121.828506,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Mission at Paseo Padre",
+		"city":"Fremont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAFREMO39",
+		"lat":37.503822,
+		"lon":-121.920761,
+		"distance_km":7,
+		"distance_mi":4
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Milpitas, CA",
+		"city":"Milpitas",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"95035",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.43999863",
+		"longitude":"-121.88999939",
+		"elevation":"6.1"
+		},
+		"observation_location": {
+		"full":"San Jose, California",
+		"city":"San Jose",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.44",
+		"longitude":"-121.88",
+		"elevation":"72 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAMILPI13",
+		"observation_time":"Last Updated on February 24, 10:08 AM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 10:08:55 -0800",
+		"observation_epoch":"1551031735",
+		"local_time_rfc822":"Sun, 24 Feb 2019 10:09:00 -0800",
+		"local_epoch":"1551031740",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"55.2 F (12.9 C)",
+		"temp_f":55.2,
+		"temp_c":12.9,
+		"relative_humidity":"59%",
+		"wind_string":"Calm",
+		"wind_dir":"West",
+		"wind_degrees":269,
+		"wind_mph":0.4,
+		"wind_gust_mph":"2.5",
+		"wind_kph":0,
+		"wind_gust_kph":"4.0",
+		"pressure_mb":"1024",
+		"pressure_in":"30.25",
+		"pressure_trend":"-",
+		"dewpoint_string":"41 F (5 C)",
+		"dewpoint_f":41,
+		"dewpoint_c":5,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"55.2 F (12.9 C)",
+		"feelslike_f":"55.2",
+		"feelslike_c":"12.9",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"269",
+		"UV":"2.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Milpitas.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAMILPI13",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.444763,-121.881538",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"9:20 AM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Cloudy skies. High around 60F. Winds WNW at 5 to 10 mph.",
+		"fcttext_metric":"",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Cloudy skies. Low 44F. Winds SE at 5 to 10 mph.",
+		"fcttext_metric":"",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Cloudy skies with periods of rain later in the day. High 58F. Winds SSE at 15 to 25 mph. Chance of rain 70%.",
+		"fcttext_metric":"",
+		"pop":"70"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Rain likely. Low 53F. Winds SSE at 15 to 25 mph. Chance of rain 70%. Rainfall around a half an inch.",
+		"fcttext_metric":"",
+		"pop":"70"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Cloudy with periods of rain. High 58F. Winds SSE at 15 to 25 mph. Chance of rain 90%. Rainfall near a half an inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"",
+		"pop":"90"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Rain early...then remaining cloudy with thundershowers developing late. Low 53F. Winds SSE at 15 to 25 mph. Chance of rain 100%.",
+		"fcttext_metric":"",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Cloudy with occasional rain showers. High 63F. Winds S at 10 to 20 mph. Chance of rain 60%.",
+		"fcttext_metric":"",
+		"pop":"60"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Overcast with rain showers at times. Low 47F. Winds SW at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"",
+		"pop":"50"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"60",
+		"celsius":"16"
+		},
+		"low": {
+		"fahrenheit":"44",
+		"celsius":"7"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WNW",
+		"degrees": 283
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "WNW",
+		"degrees": 283
+		},
+		"avehumidity": 59,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":70,
+		"qpf_allday": {
+		"in": 0.53,
+		"mm": 13
+		},
+		"qpf_day": {
+		"in": 0.10,
+		"mm": 3
+		},
+		"qpf_night": {
+		"in": 0.44,
+		"mm": 11
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "SSE",
+		"degrees": 159
+		},
+		"avewind": {
+		"mph": 17,
+		"kph": 27,
+		"dir": "SSE",
+		"degrees": 159
+		},
+		"avehumidity": 73,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":90,
+		"qpf_allday": {
+		"in": 1.21,
+		"mm": 31
+		},
+		"qpf_day": {
+		"in": 0.46,
+		"mm": 12
+		},
+		"qpf_night": {
+		"in": 0.75,
+		"mm": 19
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "SSE",
+		"degrees": 161
+		},
+		"avewind": {
+		"mph": 17,
+		"kph": 27,
+		"dir": "SSE",
+		"degrees": 161
+		},
+		"avehumidity": 79,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"63",
+		"celsius":"17"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":60,
+		"qpf_allday": {
+		"in": 0.15,
+		"mm": 4
+		},
+		"qpf_day": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"qpf_night": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "S",
+		"degrees": 187
+		},
+		"avewind": {
+		"mph": 13,
+		"kph": 21,
+		"dir": "S",
+		"degrees": 187
+		},
+		"avehumidity": 80,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

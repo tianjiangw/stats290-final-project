@@ -1,0 +1,913 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Hayward",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.66999817",
+		"lon":"-122.08000183",
+		"zip":"94540",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:94540.1.99999",
+		"requesturl":"US/CA/Hayward.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Hayward.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Hayward", "state":"CA", "country":"US", "icao":"KHWD", "lat":"37.65999985", "lon":"-122.12000275" }
+		,{ "city":"Oakland", "state":"CA", "country":"US", "icao":"KOAK", "lat":"37.72000122", "lon":"-122.22000122" }
+		,{ "city":"Livermore", "state":"CA", "country":"US", "icao":"KLVK", "lat":"37.68999863", "lon":"-121.81999969" }
+		,{ "city":"San Carlos", "state":"CA", "country":"US", "icao":"KSQL", "lat":"37.50999832", "lon":"-122.25000000" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Fairview Foothills",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA146",
+		"lat":37.674500,
+		"lon":-122.088303,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Fairview",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA152",
+		"lat":37.672943,
+		"lon":-122.067909,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Cherryland",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA155",
+		"lat":37.665997,
+		"lon":-122.099403,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Fairview",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA103",
+		"lat":37.674145,
+		"lon":-122.053619,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Parkmead Hayward",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA150",
+		"lat":37.651264,
+		"lon":-122.094978,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Hayward Highlands",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA101",
+		"lat":37.654369,
+		"lon":-122.050568,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Center Street",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR89",
+		"lat":37.696407,
+		"lon":-122.062767,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Copa Del Oro",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA120",
+		"lat":37.644989,
+		"lon":-122.102852,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"5 Canyons",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR85",
+		"lat":37.681244,
+		"lon":-122.039162,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Columbia Way",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA116",
+		"lat":37.653450,
+		"lon":-122.041634,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"STANTON",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR87",
+		"lat":37.703316,
+		"lon":-122.095032,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Castro Valley, CA (Independent School)",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR26",
+		"lat":37.696724,
+		"lon":-122.050484,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Fairview",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA160",
+		"lat":37.667656,
+		"lon":-122.033096,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"San Lorenzo Village",
+		"city":"San Lorenzo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANLO9",
+		"lat":37.672581,
+		"lon":-122.128471,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Mayflower",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR86",
+		"lat":37.709000,
+		"lon":-122.088501,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"5 Canyons",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR78",
+		"lat":37.687950,
+		"lon":-122.035339,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Castro Valley Upper Redwood",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR20",
+		"lat":37.709362,
+		"lon":-122.071983,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Castro Valley",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR31",
+		"lat":37.687737,
+		"lon":-122.034843,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Seven Hills Area",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR96",
+		"lat":37.710323,
+		"lon":-122.076401,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Agualinda Pool",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR7",
+		"lat":37.710548,
+		"lon":-122.077477,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Hayward Hills",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA34",
+		"lat":37.648182,
+		"lon":-122.036140,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Bluto",
+		"city":"San Lorenzo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANLO11",
+		"lat":37.672295,
+		"lon":-122.131866,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"San Lorenzo Village",
+		"city":"San Lorenzo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANLO13",
+		"lat":37.669304,
+		"lon":-122.133034,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Upper Sandy Road",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR65",
+		"lat":37.710300,
+		"lon":-122.064087,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Crest",
+		"city":"San Leandro",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANLE228",
+		"lat":37.707031,
+		"lon":-122.105789,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Castro Valley",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR73",
+		"lat":37.712444,
+		"lon":-122.079582,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Upper Castro Valley",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR46",
+		"lat":37.712841,
+		"lon":-122.082443,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Residential, about .25 miles away from WUI",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR54",
+		"lat":37.712631,
+		"lon":-122.072052,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Fairview Ridge",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA131",
+		"lat":37.660698,
+		"lon":-122.026787,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Hayward Hills, sagehouse",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA23",
+		"lat":37.654579,
+		"lon":-122.028961,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Fairmont Terrace",
+		"city":"San Leandro",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANLE225",
+		"lat":37.705727,
+		"lon":-122.112198,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Fig Tree",
+		"city":"San Lorenzo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANLO14",
+		"lat":37.668663,
+		"lon":-122.136177,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Castro Valley",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR13",
+		"lat":37.715000,
+		"lon":-122.078003,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Tennyson-Alquiere",
+		"city":"Hayward",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHAYWA138",
+		"lat":37.623821,
+		"lon":-122.066551,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Upper Center Street",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR62",
+		"lat":37.714935,
+		"lon":-122.060860,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Top of Redwood Road",
+		"city":"Castro Valley",
+		"state":"CA",
+		"country":"US",
+		"id":"KCACASTR97",
+		"lat":37.717316,
+		"lon":-122.071869,
+		"distance_km":5,
+		"distance_mi":3
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Hayward, CA",
+		"city":"Hayward",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94540",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.66999817",
+		"longitude":"-122.08000183",
+		"elevation":"59.1"
+		},
+		"observation_location": {
+		"full":"Hayward, California",
+		"city":"Hayward",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.67",
+		"longitude":"-122.09",
+		"elevation":"89 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAHAYWA146",
+		"observation_time":"Last Updated on February 24, 10:08 AM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 10:08:01 -0800",
+		"observation_epoch":"1551031681",
+		"local_time_rfc822":"Sun, 24 Feb 2019 10:08:06 -0800",
+		"local_epoch":"1551031686",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Clear",
+		"temperature_string":"52.7 F (11.5 C)",
+		"temp_f":52.7,
+		"temp_c":11.5,
+		"relative_humidity":"73%",
+		"wind_string":"Calm",
+		"wind_dir":"WSW",
+		"wind_degrees":251,
+		"wind_mph":0.22,
+		"wind_gust_mph":"2.5",
+		"wind_kph":0,
+		"wind_gust_kph":"4.0",
+		"pressure_mb":"1025",
+		"pressure_in":"30.28",
+		"pressure_trend":"-",
+		"dewpoint_string":"44 F (7 C)",
+		"dewpoint_f":44,
+		"dewpoint_c":7,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"52.7 F (11.5 C)",
+		"feelslike_f":"52.7",
+		"feelslike_c":"11.5",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"235",
+		"UV":"2.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"clear",
+		"icon_url":"http://icons.wxug.com/i/c/k/clear.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Hayward.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAHAYWA146",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.674500,-122.088303",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"9:06 AM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Overcast. High 58F. Winds WSW at 10 to 15 mph.",
+		"fcttext_metric":"Generally cloudy. High 14C. Winds WSW at 15 to 25 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Cloudy. Low 47F. Winds SSE at 5 to 10 mph.",
+		"fcttext_metric":"Cloudy. Low 8C. Winds SSE at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Cloudy with occasional rain in the afternoon. High 58F. Winds SSE at 15 to 25 mph. Chance of rain 90%. Rainfall around a quarter of an inch.",
+		"fcttext_metric":"Cloudy with rain developing later in the day. High 14C. Winds SSE at 25 to 40 km/h. Chance of rain 90%. Rainfall around 6mm.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Periods of rain. Low 54F. Winds SSE at 15 to 25 mph. Chance of rain 80%. Rainfall near a half an inch.",
+		"fcttext_metric":"Periods of rain. Low 12C. Winds SSE at 25 to 40 km/h. Chance of rain 80%. Rainfall around 12mm.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Cloudy with periods of rain. High 58F. Winds SSE at 15 to 25 mph. Chance of rain 100%. Rainfall near a half an inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"Rain likely. High around 15C. Winds SSE at 25 to 40 km/h. Chance of rain 100%. Rainfall near 12mm. Locally heavy rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Windy with thundershowers following a period of rain early. Low 54F. Winds S at 20 to 30 mph. Chance of rain 100%.",
+		"fcttext_metric":"Windy with thundershowers following a period of rain early. Low 12C. Winds S at 30 to 50 km/h. Chance of rain 100%.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Cloudy with periods of light rain. High 61F. Winds SSW at 10 to 20 mph. Chance of rain 70%.",
+		"fcttext_metric":"Occasional light rain. High 16C. Winds SSW at 15 to 30 km/h. Chance of rain 70%.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Showers in the evening, then cloudy overnight. Low 48F. Winds WSW at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Showers in the evening, then cloudy overnight. Low 9C. Winds WSW at 10 to 15 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "WSW",
+		"degrees": 254
+		},
+		"avewind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WSW",
+		"degrees": 254
+		},
+		"avehumidity": 65,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":90,
+		"qpf_allday": {
+		"in": 0.99,
+		"mm": 25
+		},
+		"qpf_day": {
+		"in": 0.24,
+		"mm": 6
+		},
+		"qpf_night": {
+		"in": 0.74,
+		"mm": 19
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "SSE",
+		"degrees": 166
+		},
+		"avewind": {
+		"mph": 19,
+		"kph": 31,
+		"dir": "SSE",
+		"degrees": 166
+		},
+		"avehumidity": 72,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.32,
+		"mm": 34
+		},
+		"qpf_day": {
+		"in": 0.73,
+		"mm": 19
+		},
+		"qpf_night": {
+		"in": 0.59,
+		"mm": 15
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "SSE",
+		"degrees": 168
+		},
+		"avewind": {
+		"mph": 19,
+		"kph": 31,
+		"dir": "SSE",
+		"degrees": 168
+		},
+		"avehumidity": 77,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"61",
+		"celsius":"16"
+		},
+		"low": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":70,
+		"qpf_allday": {
+		"in": 0.15,
+		"mm": 4
+		},
+		"qpf_day": {
+		"in": 0.11,
+		"mm": 3
+		},
+		"qpf_night": {
+		"in": 0.04,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "SSW",
+		"degrees": 203
+		},
+		"avewind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SSW",
+		"degrees": 203
+		},
+		"avehumidity": 76,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

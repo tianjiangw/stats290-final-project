@@ -1,0 +1,792 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Millbrae",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.59999847",
+		"lon":"-122.38999939",
+		"zip":"94030",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:94030.1.99999",
+		"requesturl":"US/CA/Millbrae.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Millbrae.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"San Francisco", "state":"CA", "country":"US", "icao":"KSFO", "lat":"37.61999893", "lon":"-122.37000275" }
+		,{ "city":"Half Moon Bay", "state":"CA", "country":"US", "icao":"KHAF", "lat":"37.50999832", "lon":"-122.50000000" }
+		,{ "city":"San Carlos", "state":"CA", "country":"US", "icao":"KSQL", "lat":"37.50999832", "lon":"-122.25000000" }
+		,{ "city":"Oakland", "state":"CA", "country":"US", "icao":"KOAK", "lat":"37.72000122", "lon":"-122.22000122" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Downtown Millbrae",
+		"city":"Millbrae",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMILLB8",
+		"lat":37.600311,
+		"lon":-122.391991,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Ray Park, Burlingame, Ca",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI26",
+		"lat":37.586243,
+		"lon":-122.383308,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Mills Estates",
+		"city":"Millbrae",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMILLB3",
+		"lat":37.586327,
+		"lon":-122.402023,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Silva Ranch",
+		"city":"Millbrae",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMILLB7",
+		"lat":37.595757,
+		"lon":-122.411247,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Easton Addition",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI29",
+		"lat":37.582771,
+		"lon":-122.380981,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Mills Estates",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI38",
+		"lat":37.582108,
+		"lon":-122.400070,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Burlingame Hills",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI32",
+		"lat":37.578030,
+		"lon":-122.387192,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Burlingame",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI3",
+		"lat":37.578003,
+		"lon":-122.387306,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"South of City Park",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR40",
+		"lat":37.612415,
+		"lon":-122.414230,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Burlingame Hills",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI4",
+		"lat":37.576645,
+		"lon":-122.396812,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Edgehill",
+		"city":"Hillsborough",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHILLS20",
+		"lat":37.576721,
+		"lon":-122.378098,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Burlingame Hills",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI45",
+		"lat":37.574436,
+		"lon":-122.385490,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Meadows",
+		"city":"Millbrae",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAMILLB6",
+		"lat":37.604847,
+		"lon":-122.422394,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Huntington Park",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR16",
+		"lat":37.621155,
+		"lon":-122.413101,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Grundy Park",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR24",
+		"lat":37.622520,
+		"lon":-122.420624,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Burlingame Terrace",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI20",
+		"lat":37.581085,
+		"lon":-122.355583,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Crestmoor",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR3",
+		"lat":37.609894,
+		"lon":-122.431709,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Mills Park",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR12",
+		"lat":37.625462,
+		"lon":-122.422470,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Burlingame Park",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI23",
+		"lat":37.575596,
+		"lon":-122.352173,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Crestmoor",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR31",
+		"lat":37.621578,
+		"lon":-122.435242,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Crestmoor 3",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR41",
+		"lat":37.618492,
+		"lon":-122.438469,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Crestmoor II",
+		"city":"San Bruno",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANBR38",
+		"lat":37.622540,
+		"lon":-122.442421,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Brentwood",
+		"city":"South San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASOUTH97",
+		"lat":37.636330,
+		"lon":-122.431061,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"East Jamie Court",
+		"city":"South San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASOUTH89",
+		"lat":37.648605,
+		"lon":-122.383507,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Park Pacifica",
+		"city":"Pacifica",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAPACIF103",
+		"lat":37.601002,
+		"lon":-122.454498,
+		"distance_km":5,
+		"distance_mi":3
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Millbrae, CA",
+		"city":"Millbrae",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94030",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.59999847",
+		"longitude":"-122.38999939",
+		"elevation":"9.8"
+		},
+		"observation_location": {
+		"full":"San Francisco, California",
+		"city":"San Francisco",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.60",
+		"longitude":"-122.39",
+		"elevation":"26 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAMILLB8",
+		"observation_time":"Last Updated on February 24, 12:50 PM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 12:50:18 -0800",
+		"observation_epoch":"1551041418",
+		"local_time_rfc822":"Sun, 24 Feb 2019 12:50:25 -0800",
+		"local_epoch":"1551041425",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"59.7 F (15.4 C)",
+		"temp_f":59.7,
+		"temp_c":15.4,
+		"relative_humidity":"60%",
+		"wind_string":"Calm",
+		"wind_dir":"NNE",
+		"wind_degrees":31,
+		"wind_mph":0.7,
+		"wind_gust_mph":"1.1",
+		"wind_kph":1.1,
+		"wind_gust_kph":"1.8",
+		"pressure_mb":"1023",
+		"pressure_in":"30.22",
+		"pressure_trend":"-",
+		"dewpoint_string":"46 F (8 C)",
+		"dewpoint_f":46,
+		"dewpoint_c":8,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"59.7 F (15.4 C)",
+		"feelslike_f":"59.7",
+		"feelslike_c":"15.4",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"400",
+		"UV":"3.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Millbrae.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAMILLB8",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.600311,-122.391991",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"11:39 AM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Generally cloudy. High 56F. Winds WSW at 10 to 15 mph.",
+		"fcttext_metric":"Generally cloudy. High around 15C. Winds WSW at 15 to 25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Cloudy. Low 48F. Winds SSW at 5 to 10 mph.",
+		"fcttext_metric":"Overcast. Low 9C. Winds SSW at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Cloudy with periods of rain. Becoming windy in the afternoon. High near 55F. Winds S at 20 to 30 mph. Chance of rain 90%. Rainfall near a half an inch.",
+		"fcttext_metric":"Rain likely. Becoming windy in the afternoon. High 13C. Winds S at 30 to 50 km/h. Chance of rain 90%. Rainfall around 12mm.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Cloudy and windy with periods of rain. Low 54F. Winds S at 20 to 30 mph. Chance of rain 90%. 1 to 2 inches of rain expected.",
+		"fcttext_metric":"Rain and wind. Low 12C. Winds S at 30 to 50 km/h. Chance of rain 90%. 25 to 50mm of rain expected.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Cloudy and windy with periods of rain. High 57F. Winds S at 25 to 35 mph. Chance of rain 100%. Rainfall may reach one inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"Windy with periods of rain. High 14C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall near 25mm. Locally heavy rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Windy with rain early...then remaining cloudy with thundershowers late. Low 54F. Winds S at 25 to 35 mph. Chance of rain 100%.",
+		"fcttext_metric":"Windy with thundershowers following a period of rain early. Low 12C. Winds S at 30 to 50 km/h. Chance of rain 100%.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Light rain early...then remaining cloudy with showers in the afternoon. High 59F. Winds SW at 10 to 20 mph. Chance of rain 70%.",
+		"fcttext_metric":"Steady light rain in the morning. Showers continuing in the afternoon. High around 15C. Winds SW at 15 to 30 km/h. Chance of rain 70%.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Cloudy skies. Low 48F. Winds W at 10 to 15 mph.",
+		"fcttext_metric":"Cloudy skies. Low 9C. Winds W at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"60",
+		"celsius":"16"
+		},
+		"low": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "WSW",
+		"degrees": 250
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "WSW",
+		"degrees": 250
+		},
+		"avehumidity": 66,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":90,
+		"qpf_allday": {
+		"in": 1.75,
+		"mm": 44
+		},
+		"qpf_day": {
+		"in": 0.52,
+		"mm": 13
+		},
+		"qpf_night": {
+		"in": 1.23,
+		"mm": 31
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "S",
+		"degrees": 179
+		},
+		"avewind": {
+		"mph": 24,
+		"kph": 39,
+		"dir": "S",
+		"degrees": 179
+		},
+		"avehumidity": 77,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.47,
+		"mm": 37
+		},
+		"qpf_day": {
+		"in": 0.82,
+		"mm": 21
+		},
+		"qpf_night": {
+		"in": 0.65,
+		"mm": 17
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 35,
+		"kph": 56,
+		"dir": "S",
+		"degrees": 177
+		},
+		"avewind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "S",
+		"degrees": 177
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"59",
+		"celsius":"15"
+		},
+		"low": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":70,
+		"qpf_allday": {
+		"in": 0.06,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.06,
+		"mm": 2
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "SW",
+		"degrees": 218
+		},
+		"avewind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SW",
+		"degrees": 218
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

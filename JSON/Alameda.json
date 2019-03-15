@@ -1,0 +1,803 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Alameda",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.77000046",
+		"lon":"-122.26000214",
+		"zip":"94501",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:94501.1.99999",
+		"requesturl":"US/CA/Alameda.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Alameda.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Oakland", "state":"CA", "country":"US", "icao":"KOAK", "lat":"37.72000122", "lon":"-122.22000122" }
+		,{ "city":"Hayward", "state":"CA", "country":"US", "icao":"KHWD", "lat":"37.65999985", "lon":"-122.12000275" }
+		,{ "city":"San Francisco", "state":"CA", "country":"US", "icao":"KSFO", "lat":"37.61999893", "lon":"-122.37000275" }
+		,{ "city":"San Carlos", "state":"CA", "country":"US", "icao":"KSQL", "lat":"37.50999832", "lon":"-122.25000000" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Encinal & Lafayette",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME1",
+		"lat":37.767555,
+		"lon":-122.255173,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Alameda Gold Coast",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME40",
+		"lat":37.769093,
+		"lon":-122.265663,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Central Alameda",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME36",
+		"lat":37.775509,
+		"lon":-122.265320,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Mid-Island",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME42",
+		"lat":37.773678,
+		"lon":-122.252159,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Central Alameda",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME55",
+		"lat":37.771908,
+		"lon":-122.269386,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"West End",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME57",
+		"lat":37.774464,
+		"lon":-122.270927,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Bronze Coast",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME47",
+		"lat":37.761791,
+		"lon":-122.249748,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Alameda - Webster/Central",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME34",
+		"lat":37.772118,
+		"lon":-122.275208,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Oakland Yacht Club Harbor",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME66",
+		"lat":37.784100,
+		"lon":-122.263863,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"East End",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME29",
+		"lat":37.759338,
+		"lon":-122.239166,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"West End",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME58",
+		"lat":37.773220,
+		"lon":-122.284607,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Versailles Area",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME61",
+		"lat":37.763046,
+		"lon":-122.235397,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Porta Ballena",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME62",
+		"lat":37.768253,
+		"lon":-122.286957,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Alameda Fernside",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME5",
+		"lat":37.761887,
+		"lon":-122.234131,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"East End",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME8",
+		"lat":37.756023,
+		"lon":-122.237831,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Fairview-High St",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME65",
+		"lat":37.762154,
+		"lon":-122.229622,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Sterling",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME63",
+		"lat":37.757252,
+		"lon":-122.231667,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Eastlake District, Oakland CA",
+		"city":"Oakland",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAOAKLA183",
+		"lat":37.796925,
+		"lon":-122.254066,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Oakland/Lake Merritt",
+		"city":"Oakland",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAOAKLA182",
+		"lat":37.797050,
+		"lon":-122.254181,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Produce and Waterfront",
+		"city":"Oakland",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAOAKLA42",
+		"lat":37.795559,
+		"lon":-122.272926,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"High St Bridge",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME7",
+		"lat":37.763474,
+		"lon":-122.226082,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Ferry Point",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME6",
+		"lat":37.778690,
+		"lon":-122.297470,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Highland Terrace",
+		"city":"Oakland",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAOAKLA51",
+		"lat":37.792065,
+		"lon":-122.228897,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Bay Farm Island",
+		"city":"Alameda",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAALAME9",
+		"lat":37.737534,
+		"lon":-122.243553,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Sandis Oakland",
+		"city":"Oakland",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAOAKLA264",
+		"lat":37.802841,
+		"lon":-122.277557,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"HamItUp",
+		"city":"Oakland",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAOAKLA175",
+		"lat":37.804501,
+		"lon":-122.271400,
+		"distance_km":3,
+		"distance_mi":2
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Alameda, CA",
+		"city":"Alameda",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94501",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.77000046",
+		"longitude":"-122.26000214",
+		"elevation":"0.9"
+		},
+		"observation_location": {
+		"full":"Oakland, California",
+		"city":"Oakland",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.77",
+		"longitude":"-122.26",
+		"elevation":"15 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAALAME1",
+		"observation_time":"Last Updated on February 24, 12:45 PM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 12:45:57 -0800",
+		"observation_epoch":"1551041157",
+		"local_time_rfc822":"Sun, 24 Feb 2019 12:46:10 -0800",
+		"local_epoch":"1551041170",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"57.7 F (14.3 C)",
+		"temp_f":57.7,
+		"temp_c":14.3,
+		"relative_humidity":"66%",
+		"wind_string":"Calm",
+		"wind_dir":"West",
+		"wind_degrees":268,
+		"wind_mph":0,
+		"wind_gust_mph":"3.0",
+		"wind_kph":0,
+		"wind_gust_kph":"4.8",
+		"pressure_mb":"1024",
+		"pressure_in":"30.24",
+		"pressure_trend":"-",
+		"dewpoint_string":"46 F (8 C)",
+		"dewpoint_f":46,
+		"dewpoint_c":8,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"57.7 F (14.3 C)",
+		"feelslike_f":"57.7",
+		"feelslike_c":"14.3",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"631",
+		"UV":"3","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Alameda.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAALAME1",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.767555,-122.255173",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"11:20 AM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Overcast. High 57F. Winds WSW at 10 to 15 mph.",
+		"fcttext_metric":"Generally cloudy. High 14C. Winds WSW at 15 to 25 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Cloudy. Low 47F. Winds S at 5 to 10 mph.",
+		"fcttext_metric":"Overcast. Low 9C. Winds S at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Rain showers early with a steady, soaking rain later in the day. Increasing winds. High 57F. Winds S at 20 to 30 mph. Chance of rain 100%. Rainfall around a quarter of an inch.",
+		"fcttext_metric":"Rain showers early with a steady, soaking rain later in the day. Increasing winds. High 14C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall near 6mm.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Rain and wind. Low 54F. Winds S at 20 to 30 mph. Chance of rain 100%. Rainfall near an inch.",
+		"fcttext_metric":"Windy with periods of rain. Low 12C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall near 25mm.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Cloudy with periods of rain. Becoming windy in the afternoon. High 58F. Winds S at 20 to 30 mph. Chance of rain 100%. Rainfall possibly over one inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"Cloudy with periods of rain. Becoming windy in the afternoon. High 14C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall possibly over 25mm. Locally heavy rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Windy with rain. Thunderstorms possible...mainly late. Low 54F. Winds S at 20 to 30 mph. Chance of rain 100%.",
+		"fcttext_metric":"Windy with rain early...then remaining cloudy with thundershowers late. Low 12C. Winds S at 30 to 50 km/h. Chance of rain 100%.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Cloudy with periods of light rain. High near 60F. Winds SSW at 10 to 20 mph. Chance of rain 70%.",
+		"fcttext_metric":"Occasional light rain. High near 15C. Winds SSW at 15 to 30 km/h. Chance of rain 70%.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Cloudy. Low 47F. Winds WSW at 5 to 10 mph.",
+		"fcttext_metric":"Overcast. Low 9C. Winds WSW at 10 to 15 km/h.",
+		"pop":"20"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"15"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "WSW",
+		"degrees": 252
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "WSW",
+		"degrees": 252
+		},
+		"avehumidity": 67,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.33,
+		"mm": 34
+		},
+		"qpf_day": {
+		"in": 0.31,
+		"mm": 8
+		},
+		"qpf_night": {
+		"in": 1.02,
+		"mm": 26
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "S",
+		"degrees": 171
+		},
+		"avewind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "S",
+		"degrees": 171
+		},
+		"avehumidity": 76,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.53,
+		"mm": 39
+		},
+		"qpf_day": {
+		"in": 0.75,
+		"mm": 19
+		},
+		"qpf_night": {
+		"in": 0.78,
+		"mm": 20
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "S",
+		"degrees": 171
+		},
+		"avewind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "S",
+		"degrees": 171
+		},
+		"avehumidity": 80,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"60",
+		"celsius":"16"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":70,
+		"qpf_allday": {
+		"in": 0.10,
+		"mm": 3
+		},
+		"qpf_day": {
+		"in": 0.10,
+		"mm": 3
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "SSW",
+		"degrees": 210
+		},
+		"avewind": {
+		"mph": 14,
+		"kph": 23,
+		"dir": "SSW",
+		"degrees": 210
+		},
+		"avehumidity": 82,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

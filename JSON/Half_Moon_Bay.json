@@ -1,0 +1,858 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Half Moon Bay",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.45999908",
+		"lon":"-122.43000031",
+		"zip":"94019",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:94019.1.99999",
+		"requesturl":"US/CA/Half_Moon_Bay.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Half_Moon_Bay.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"Half Moon Bay", "state":"CA", "country":"US", "icao":"KHAF", "lat":"37.50999832", "lon":"-122.50000000" }
+		,{ "city":"San Carlos", "state":"CA", "country":"US", "icao":"KSQL", "lat":"37.50999832", "lon":"-122.25000000" }
+		,{ "city":"San Francisco", "state":"CA", "country":"US", "icao":"KSFO", "lat":"37.61999893", "lon":"-122.37000275" }
+		,{ "city":"Palo Alto", "state":"CA", "country":"US", "icao":"KPAO", "lat":"37.45999908", "lon":"-122.11000061" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Downtown Half Moon Bay",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM49",
+		"lat":37.460739,
+		"lon":-122.427872,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Near Downtown Half Moon Bay",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM12",
+		"lat":37.460297,
+		"lon":-122.427322,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Arleta Park",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM50",
+		"lat":37.459167,
+		"lon":-122.436722,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Arleta Park",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM40",
+		"lat":37.453411,
+		"lon":-122.435883,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Alsace Lorraine White House",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM56",
+		"lat":37.459961,
+		"lon":-122.440727,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Half Moon Bay Arleta Park",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM57",
+		"lat":37.455090,
+		"lon":-122.439003,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"100 block Kelly Ave",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM63",
+		"lat":37.464588,
+		"lon":-122.442589,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Grandview",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM64",
+		"lat":37.478004,
+		"lon":-122.436836,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"HMB 5TH FAIRWAY",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM39",
+		"lat":37.433491,
+		"lon":-122.432053,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Near HMB Golf Course",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM59",
+		"lat":37.432549,
+		"lon":-122.429443,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Canada Cove",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM28",
+		"lat":37.429977,
+		"lon":-122.432083,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Canada Cove",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM5",
+		"lat":37.429516,
+		"lon":-122.427803,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"miramar2",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM47",
+		"lat":37.489693,
+		"lon":-122.454063,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Miramar (Water Tank)",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM60",
+		"lat":37.495708,
+		"lon":-122.449829,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Miramar NE",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM20",
+		"lat":37.497890,
+		"lon":-122.459503,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Purissima Creek",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM61",
+		"lat":37.431664,
+		"lon":-122.386253,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"PCC R/C Flying Field",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM26",
+		"lat":37.414860,
+		"lon":-122.423279,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"El Granada Highlands",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM29",
+		"lat":37.505215,
+		"lon":-122.466423,
+		"distance_km":5,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Half Moon Bay 1",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM58",
+		"lat":37.406033,
+		"lon":-122.420723,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"El Granada",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM37",
+		"lat":37.505421,
+		"lon":-122.478653,
+		"distance_km":6,
+		"distance_mi":3
+		},
+		{
+		"neighborhood":"Near Pillar Point Harbor",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM3",
+		"lat":37.511379,
+		"lon":-122.487396,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Irish Ridge",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM53",
+		"lat":37.406574,
+		"lon":-122.369873,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"SLS",
+		"city":"TUNITAS CREEK ROAD",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAHALFM10",
+		"lat":37.389126,
+		"lon":-122.372391,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Highlands",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA170",
+		"lat":37.516094,
+		"lon":-122.343529,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"San Mateo Highlands",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA279",
+		"lat":37.515800,
+		"lon":-122.341888,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"SM Highlands North",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA197",
+		"lat":37.527294,
+		"lon":-122.355553,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Kings Mountain",
+		"city":"Woodside",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAWOODS4",
+		"lat":37.462482,
+		"lon":-122.346817,
+		"distance_km":7,
+		"distance_mi":4
+		},
+		{
+		"neighborhood":"Henrik Ibsen Park",
+		"city":"Redwood City",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAREDWO176",
+		"lat":37.438934,
+		"lon":-122.328117,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Kings Mountain",
+		"city":"Woodside",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAWOODS20",
+		"lat":37.447392,
+		"lon":-122.334976,
+		"distance_km":8,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Kings Mountain",
+		"city":"Redwood City",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAREDWO212",
+		"lat":37.439335,
+		"lon":-122.323433,
+		"distance_km":9,
+		"distance_mi":5
+		},
+		{
+		"neighborhood":"Kings Mountain Vista",
+		"city":"Woodside",
+		"state":"CA",
+		"country":"US",
+		"id":"KCAWOODS18",
+		"lat":37.417999,
+		"lon":-122.331001,
+		"distance_km":9,
+		"distance_mi":5
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Half Moon Bay, CA",
+		"city":"Half Moon Bay",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94019",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.45999908",
+		"longitude":"-122.43000031",
+		"elevation":"22.3"
+		},
+		"observation_location": {
+		"full":"San Carlos, California",
+		"city":"San Carlos",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.46",
+		"longitude":"-122.43",
+		"elevation":"20 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCAHALFM49",
+		"observation_time":"Last Updated on February 24, 10:00 AM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 10:00:22 -0800",
+		"observation_epoch":"1551031222",
+		"local_time_rfc822":"Sun, 24 Feb 2019 10:07:07 -0800",
+		"local_epoch":"1551031627",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"53.96 F (12.2 C)",
+		"temp_f":53.96,
+		"temp_c":12.2,
+		"relative_humidity":"77%",
+		"wind_string":"From the South at 1.69 MPH",
+		"wind_dir":"South",
+		"wind_degrees":180,
+		"wind_mph":1.69,
+		"wind_gust_mph":0,
+		"wind_kph":2.7,
+		"wind_gust_kph":0,
+		"pressure_mb":"1025",
+		"pressure_in":"30.26",
+		"pressure_trend":"-",
+		"dewpoint_string":"47 F (8 C)",
+		"dewpoint_f":47,
+		"dewpoint_c":8,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"53.96 F (12.2 C)",
+		"feelslike_f":"53.96",
+		"feelslike_c":"12.2",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"2","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Half_Moon_Bay.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCAHALFM49",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.460739,-122.427872",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"8:43 AM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Cloudy skies. High 54F. Winds SW at 5 to 10 mph.",
+		"fcttext_metric":"Cloudy. High 12C. Winds SW at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Cloudy. Low 46F. Winds S at 10 to 15 mph.",
+		"fcttext_metric":"Cloudy skies. Low 8C. Winds S at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Rain showers early with a steady, soaking rain later in the day. Increasing winds. High around 55F. Winds S at 25 to 35 mph. Chance of rain 90%. Rainfall around a half an inch.",
+		"fcttext_metric":"Showers in the morning, then becoming windy with a steady rain in the afternoon. High 13C. Winds S at 30 to 50 km/h. Chance of rain 90%. Rainfall near 12mm.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Cloudy and windy with periods of rain. Low 53F. Winds S at 25 to 35 mph. Chance of rain 80%. 1 to 2 inches of rain expected.",
+		"fcttext_metric":"Windy with rain likely. Low 12C. Winds S at 30 to 50 km/h. Chance of rain 80%. 25 to 50mm of rain expected.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Windy with periods of rain. High 57F. Winds S at 25 to 35 mph. Chance of rain 100%. Rainfall near an inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"Windy with rain likely. High 14C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall possibly over 25mm. Locally heavy rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_tstorms.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Windy with rain early...thunderstorms developing late. Low 52F. Winds S at 25 to 35 mph. Chance of rain 100%.",
+		"fcttext_metric":"Windy with rain and thunderstorms likely. Low 11C. Winds S at 40 to 55 km/h. Chance of rain 100%.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Steady light rain in the morning. Showers continuing in the afternoon. High 58F. Winds SSW at 10 to 15 mph. Chance of rain 70%.",
+		"fcttext_metric":"Light rain early...then remaining cloudy with showers in the afternoon. High 14C. Winds SSW at 15 to 25 km/h. Chance of rain 70%.",
+		"pop":"70"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Showers in the evening, then cloudy overnight. Low 47F. Winds WSW at 5 to 10 mph. Chance of rain 40%.",
+		"fcttext_metric":"Showers in the evening, then cloudy overnight. Low 8C. Winds WSW at 10 to 15 km/h. Chance of rain 40%.",
+		"pop":"40"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "SW",
+		"degrees": 221
+		},
+		"avewind": {
+		"mph": 8,
+		"kph": 13,
+		"dir": "SW",
+		"degrees": 221
+		},
+		"avehumidity": 72,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":90,
+		"qpf_allday": {
+		"in": 1.77,
+		"mm": 45
+		},
+		"qpf_day": {
+		"in": 0.39,
+		"mm": 10
+		},
+		"qpf_night": {
+		"in": 1.38,
+		"mm": 35
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 35,
+		"kph": 56,
+		"dir": "S",
+		"degrees": 179
+		},
+		"avewind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "S",
+		"degrees": 179
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"52",
+		"celsius":"11"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.82,
+		"mm": 46
+		},
+		"qpf_day": {
+		"in": 1.00,
+		"mm": 25
+		},
+		"qpf_night": {
+		"in": 0.82,
+		"mm": 21
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 35,
+		"kph": 56,
+		"dir": "S",
+		"degrees": 177
+		},
+		"avewind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "S",
+		"degrees": 177
+		},
+		"avehumidity": 86,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":70,
+		"qpf_allday": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.07,
+		"mm": 2
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SSW",
+		"degrees": 207
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "SSW",
+		"degrees": 207
+		},
+		"avehumidity": 82,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

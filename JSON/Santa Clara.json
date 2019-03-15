@@ -1,0 +1,770 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Santa Clara",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.34999847",
+		"lon":"-121.94999695",
+		"zip":"95050",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:95050.1.99999",
+		"requesturl":"US/CA/Santa_Clara.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Santa_Clara.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"San Jose", "state":"CA", "country":"US", "icao":"KSJC", "lat":"37.36000061", "lon":"-121.93000031" }
+		,{ "city":"Moffett NAS", "state":"CA", "country":"US", "icao":"KNUQ", "lat":"37.40999985", "lon":"-122.05000305" }
+		,{ "city":"San Jose Reid", "state":"CA", "country":"US", "icao":"KRHV", "lat":"37.33000183", "lon":"-121.81999969" }
+		,{ "city":"Palo Alto", "state":"CA", "country":"US", "icao":"KPAO", "lat":"37.45999908", "lon":"-122.11000061" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Old Quad",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2335",
+		"lat":37.345287,
+		"lon":-121.945549,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Fairfield Neighborhood",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA288",
+		"lat":37.347557,
+		"lon":-121.958649,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Santa clara",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2374",
+		"lat":37.358223,
+		"lon":-121.952118,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Industrial Dog Park",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2029",
+		"lat":37.359032,
+		"lon":-121.950249,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Maria St",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA701",
+		"lat":37.340286,
+		"lon":-121.952698,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"San Tomas Creek",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2370",
+		"lat":37.346462,
+		"lon":-121.962448,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Sunny Brae, Santa Clara",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA289",
+		"lat":37.344769,
+		"lon":-121.961708,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Cabrillo Scott",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA1958",
+		"lat":37.357979,
+		"lon":-121.961220,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Manchester Dr",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2423",
+		"lat":37.338684,
+		"lon":-121.942101,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Sunny Brae West",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2251",
+		"lat":37.344246,
+		"lon":-121.967468,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Park Ct, Santa Clara, CA",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2213",
+		"lat":37.341686,
+		"lon":-121.933990,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Cory @ Winchester",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO803",
+		"lat":37.334064,
+		"lon":-121.950211,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Monroe/San Tomas",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA308",
+		"lat":37.362011,
+		"lon":-121.963791,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Central Park Library",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2022",
+		"lat":37.340355,
+		"lon":-121.973396,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Santa Clara - Addison & Brown",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA1461",
+		"lat":37.361542,
+		"lon":-121.979149,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"College Park",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO656",
+		"lat":37.338253,
+		"lon":-121.918510,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Rose Garden",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO849",
+		"lat":37.327068,
+		"lon":-121.929672,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Glorietta Circle",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA2688",
+		"lat":37.328533,
+		"lon":-121.973709,
+		"distance_km":3,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Briarwood",
+		"city":"Santa Clara",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANTA381",
+		"lat":37.355171,
+		"lon":-121.987602,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"WONA",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO650",
+		"lat":37.319839,
+		"lon":-121.954582,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Burbank",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO973",
+		"lat":37.320354,
+		"lon":-121.938606,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Rosemary Gardens",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO188",
+		"lat":37.357361,
+		"lon":-121.911781,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Cory",
+		"city":"San Jose",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANJO987",
+		"lat":37.332584,
+		"lon":-121.940277,
+		"distance_km":2,
+		"distance_mi":1
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Santa Clara, CA",
+		"city":"Santa Clara",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"95050",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.34999847",
+		"longitude":"-121.94999695",
+		"elevation":"27.1"
+		},
+		"observation_location": {
+		"full":"San Jose, California",
+		"city":"San Jose",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.35",
+		"longitude":"-121.95",
+		"elevation":"72 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCASANTA2335",
+		"observation_time":"Last Updated on February 24, 12:44 PM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 12:44:29 -0800",
+		"observation_epoch":"1551041069",
+		"local_time_rfc822":"Sun, 24 Feb 2019 12:48:06 -0800",
+		"local_epoch":"1551041286",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"60.5 F (15.8 C)",
+		"temp_f":60.5,
+		"temp_c":15.8,
+		"relative_humidity":"59%",
+		"wind_string":"From the NE at 4 MPH",
+		"wind_dir":"NE",
+		"wind_degrees":45,
+		"wind_mph":4,
+		"wind_gust_mph":0,
+		"wind_kph":6.4,
+		"wind_gust_kph":0,
+		"pressure_mb":"1023",
+		"pressure_in":"30.22",
+		"pressure_trend":"-",
+		"dewpoint_string":"46 F (8 C)",
+		"dewpoint_f":46,
+		"dewpoint_c":8,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"60.5 F (15.8 C)",
+		"feelslike_f":"60.5",
+		"feelslike_c":"15.8",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"3","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Santa_Clara.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANTA2335",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.345287,-121.945549",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"12:00 PM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Overcast. High 61F. Winds NNW at 5 to 10 mph.",
+		"fcttext_metric":"Cloudy. High 16C. Winds NNW at 10 to 15 km/h.",
+		"pop":"0"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Cloudy skies. Low 44F. Winds SE at 5 to 10 mph.",
+		"fcttext_metric":"Cloudy skies. Low 7C. Winds SE at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Monday",
+		"fcttext":"Cloudy with light rain developing later in the day. High 57F. Winds SSE at 15 to 25 mph. Chance of rain 80%.",
+		"fcttext_metric":"Cloudy with occasional light rain in the afternoon. High 14C. Winds SSE at 25 to 40 km/h. Chance of rain 80%.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Periods of rain. Low 52F. Winds SSE at 15 to 25 mph. Chance of rain 90%. Rainfall around a half an inch.",
+		"fcttext_metric":"Rain. Low 11C. Winds SSE at 25 to 40 km/h. Chance of rain 90%. Rainfall near 12mm.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Cloudy with periods of rain. High 58F. Winds SSE at 15 to 25 mph. Chance of rain 100%. Rainfall around a half an inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"Rain likely. High 14C. Winds SSE at 25 to 40 km/h. Chance of rain 100%. Rainfall near 12mm. Locally heavy rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"A steady rain early. Showers with perhaps a rumble of thunder developing late. Low 54F. Winds SSE at 15 to 25 mph. Chance of rain 100%. Rainfall near an inch.",
+		"fcttext_metric":"Thundershowers following a period of rain early. Low 12C. Winds SSE at 25 to 40 km/h. Chance of rain 100%. Rainfall possibly over 25mm.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Cloudy with showers. High 62F. Winds S at 10 to 20 mph. Chance of rain 60%.",
+		"fcttext_metric":"Cloudy with showers. High 17C. Winds S at 15 to 30 km/h. Chance of rain 60%.",
+		"pop":"60"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Cloudy with showers. Low 48F. Winds SW at 5 to 10 mph. Chance of rain 50%.",
+		"fcttext_metric":"Overcast with rain showers at times. Low 9C. Winds SW at 10 to 15 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"61",
+		"celsius":"16"
+		},
+		"low": {
+		"fahrenheit":"44",
+		"celsius":"7"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":0,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "NNW",
+		"degrees": 328
+		},
+		"avewind": {
+		"mph": 9,
+		"kph": 14,
+		"dir": "NNW",
+		"degrees": 328
+		},
+		"avehumidity": 56,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"52",
+		"celsius":"11"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":80,
+		"qpf_allday": {
+		"in": 0.63,
+		"mm": 16
+		},
+		"qpf_day": {
+		"in": 0.11,
+		"mm": 3
+		},
+		"qpf_night": {
+		"in": 0.52,
+		"mm": 13
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "SSE",
+		"degrees": 156
+		},
+		"avewind": {
+		"mph": 17,
+		"kph": 27,
+		"dir": "SSE",
+		"degrees": 156
+		},
+		"avehumidity": 74,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.44,
+		"mm": 37
+		},
+		"qpf_day": {
+		"in": 0.54,
+		"mm": 14
+		},
+		"qpf_night": {
+		"in": 0.91,
+		"mm": 23
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "SSE",
+		"degrees": 156
+		},
+		"avewind": {
+		"mph": 18,
+		"kph": 29,
+		"dir": "SSE",
+		"degrees": 156
+		},
+		"avehumidity": 79,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"62",
+		"celsius":"17"
+		},
+		"low": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":60,
+		"qpf_allday": {
+		"in": 0.08,
+		"mm": 2
+		},
+		"qpf_day": {
+		"in": 0.06,
+		"mm": 2
+		},
+		"qpf_night": {
+		"in": 0.02,
+		"mm": 1
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "S",
+		"degrees": 183
+		},
+		"avewind": {
+		"mph": 14,
+		"kph": 23,
+		"dir": "S",
+		"degrees": 183
+		},
+		"avehumidity": 78,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

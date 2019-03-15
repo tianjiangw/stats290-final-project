@@ -1,0 +1,792 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"San Mateo",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.56999969",
+		"lon":"-122.31999969",
+		"zip":"94401",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:94401.1.99999",
+		"requesturl":"US/CA/San_Mateo.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/San_Mateo.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"San Francisco", "state":"CA", "country":"US", "icao":"KSFO", "lat":"37.61999893", "lon":"-122.37000275" }
+		,{ "city":"San Carlos", "state":"CA", "country":"US", "icao":"KSQL", "lat":"37.50999832", "lon":"-122.25000000" }
+		,{ "city":"Half Moon Bay", "state":"CA", "country":"US", "icao":"KHAF", "lat":"37.50999832", "lon":"-122.50000000" }
+		,{ "city":"Oakland", "state":"CA", "country":"US", "icao":"KOAK", "lat":"37.72000122", "lon":"-122.22000122" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"North Shoreview",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA202",
+		"lat":37.577679,
+		"lon":-122.319099,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"9th Ave",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA277",
+		"lat":37.563740,
+		"lon":-122.314133,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Sunnybrae",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA190",
+		"lat":37.564293,
+		"lon":-122.309731,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"North Shoreview",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA131",
+		"lat":37.580181,
+		"lon":-122.318222,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Glazenwood",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA206",
+		"lat":37.559807,
+		"lon":-122.316597,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"North Shoreview",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA28",
+		"lat":37.580502,
+		"lon":-122.315567,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Sunnybrae",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA133",
+		"lat":37.560513,
+		"lon":-122.312019,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Aragon High School",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA40",
+		"lat":37.550934,
+		"lon":-122.330704,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"KSANFG",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA274",
+		"lat":37.550373,
+		"lon":-122.304123,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Baywood Knolls",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA84",
+		"lat":37.548332,
+		"lon":-122.335587,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Fiesta Gardons",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA209",
+		"lat":37.550480,
+		"lon":-122.299858,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Burlingame Park",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI23",
+		"lat":37.575596,
+		"lon":-122.352173,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Baywood Knolls",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA192",
+		"lat":37.549419,
+		"lon":-122.340271,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Hillsborough Park",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI30",
+		"lat":37.550442,
+		"lon":-122.348732,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Burlingame Terrace",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI20",
+		"lat":37.581085,
+		"lon":-122.355583,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Emerald Hills",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA272",
+		"lat":37.540199,
+		"lon":-122.304100,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Hillsdale Home",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA261",
+		"lat":37.546413,
+		"lon":-122.291740,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Beresford Park 2815",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA238",
+		"lat":37.538242,
+		"lon":-122.309914,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Beresford - San Mateo",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA105",
+		"lat":37.538387,
+		"lon":-122.308258,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Praying for Powder Day",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA266",
+		"lat":37.534477,
+		"lon":-122.315063,
+		"distance_km":3,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Hillsborough Park - Hayne",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI47",
+		"lat":37.552032,
+		"lon":-122.360161,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Foster City, CA, triton",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA259",
+		"lat":37.565533,
+		"lon":-122.269501,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"Tobin Clark Estate",
+		"city":"Burlingame",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABURLI35",
+		"lat":37.533894,
+		"lon":-122.342537,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"San Mateo-Baywood Park",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA199",
+		"lat":37.534752,
+		"lon":-122.346230,
+		"distance_km":4,
+		"distance_mi":2
+		},
+		{
+		"neighborhood":"37th Ave, USA",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA296",
+		"lat":37.530560,
+		"lon":-122.304802,
+		"distance_km":4,
+		"distance_mi":2
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"San Mateo, CA",
+		"city":"San Mateo",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94401",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.56999969",
+		"longitude":"-122.31999969",
+		"elevation":"20.1"
+		},
+		"observation_location": {
+		"full":"San Francisco, California",
+		"city":"San Francisco",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.58",
+		"longitude":"-122.32",
+		"elevation":"2 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCASANMA202",
+		"observation_time":"Last Updated on February 24, 9:56 AM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 09:56:06 -0800",
+		"observation_epoch":"1551030966",
+		"local_time_rfc822":"Sun, 24 Feb 2019 10:00:52 -0800",
+		"local_epoch":"1551031252",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"55.544 F (13.1 C)",
+		"temp_f":55.544,
+		"temp_c":13.1,
+		"relative_humidity":"68%",
+		"wind_string":"Calm",
+		"wind_dir":"East",
+		"wind_degrees":90,
+		"wind_mph":0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1024",
+		"pressure_in":"30.25",
+		"pressure_trend":"-",
+		"dewpoint_string":"45 F (7 C)",
+		"dewpoint_f":45,
+		"dewpoint_c":7,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"55.544 F (13.1 C)",
+		"feelslike_f":"55.544",
+		"feelslike_c":"13.1",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"--",
+		"UV":"2","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/San_Mateo.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANMA202",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.577679,-122.319099",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"9:00 AM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Cloudy skies. High near 55F. Winds WSW at 5 to 10 mph.",
+		"fcttext_metric":"Overcast. High 13C. Winds WSW at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Overcast. Low 47F. Winds S at 5 to 10 mph.",
+		"fcttext_metric":"Overcast. Low 8C. Winds S at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Showers in the morning, then becoming windy with a steady rain in the afternoon. High 56F. Winds S at 20 to 30 mph. Chance of rain 90%. Rainfall around a quarter of an inch.",
+		"fcttext_metric":"Showers early, becoming a steady rain later in the day. High 13C. Winds S at 25 to 40 km/h. Chance of rain 90%. Rainfall near 6mm.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Rain. Low 54F. Winds S at 15 to 25 mph. Chance of rain 80%. 1 to 2 inches of rain expected.",
+		"fcttext_metric":"Cloudy with periods of rain. Low 12C. Winds S at 25 to 40 km/h. Chance of rain 80%. 25 to 50mm of rain expected.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Periods of rain. Becoming windy in the afternoon. High 58F. Winds S at 20 to 30 mph. Chance of rain 100%. Rainfall may reach one inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"Rain. Becoming windy in the afternoon. High around 15C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall possibly over 25mm. Locally heavy rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Windy with periods of rain. Low 53F. Winds S at 20 to 30 mph. Chance of rain 100%. Rainfall near a half an inch.",
+		"fcttext_metric":"Windy with rain likely. Low 12C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall around 12mm.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Cloudy with showers. High near 60F. Winds SSW at 10 to 20 mph. Chance of rain 60%.",
+		"fcttext_metric":"Overcast with rain showers at times. High around 15C. Winds SSW at 15 to 25 km/h. Chance of rain 60%.",
+		"pop":"60"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Showers in the evening, then cloudy overnight. Low 47F. Winds WSW at 5 to 10 mph. Chance of rain 40%.",
+		"fcttext_metric":"Showers in the evening, then cloudy overnight. Low 9C. Winds WSW at 10 to 15 km/h. Chance of rain 40%.",
+		"pop":"40"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"56",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WSW",
+		"degrees": 237
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "WSW",
+		"degrees": 237
+		},
+		"avehumidity": 68,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"56",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":90,
+		"qpf_allday": {
+		"in": 1.61,
+		"mm": 41
+		},
+		"qpf_day": {
+		"in": 0.35,
+		"mm": 9
+		},
+		"qpf_night": {
+		"in": 1.26,
+		"mm": 32
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "S",
+		"degrees": 178
+		},
+		"avewind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "S",
+		"degrees": 178
+		},
+		"avehumidity": 76,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.61,
+		"mm": 41
+		},
+		"qpf_day": {
+		"in": 0.88,
+		"mm": 22
+		},
+		"qpf_night": {
+		"in": 0.73,
+		"mm": 19
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "S",
+		"degrees": 175
+		},
+		"avewind": {
+		"mph": 22,
+		"kph": 35,
+		"dir": "S",
+		"degrees": 175
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"60",
+		"celsius":"16"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":60,
+		"qpf_allday": {
+		"in": 0.03,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.03,
+		"mm": 1
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "SSW",
+		"degrees": 210
+		},
+		"avewind": {
+		"mph": 13,
+		"kph": 21,
+		"dir": "SSW",
+		"degrees": 210
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

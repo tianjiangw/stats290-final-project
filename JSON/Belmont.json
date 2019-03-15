@@ -1,0 +1,836 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"Belmont",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.52000046",
+		"lon":"-122.27999878",
+		"zip":"94002",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:94002.1.99999",
+		"requesturl":"US/CA/Belmont.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/Belmont.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"San Carlos", "state":"CA", "country":"US", "icao":"KSQL", "lat":"37.50999832", "lon":"-122.25000000" }
+		,{ "city":"San Francisco", "state":"CA", "country":"US", "icao":"KSFO", "lat":"37.61999893", "lon":"-122.37000275" }
+		,{ "city":"Palo Alto", "state":"CA", "country":"US", "icao":"KPAO", "lat":"37.45999908", "lon":"-122.11000061" }
+		,{ "city":"Half Moon Bay", "state":"CA", "country":"US", "icao":"KHAF", "lat":"37.50999832", "lon":"-122.50000000" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Mezes Ranch",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO42",
+		"lat":37.521549,
+		"lon":-122.278847,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"South Road",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO15",
+		"lat":37.521606,
+		"lon":-122.282761,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Centeral Belmont",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO62",
+		"lat":37.520199,
+		"lon":-122.275803,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Belmont Central",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO40",
+		"lat":37.524147,
+		"lon":-122.288643,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Goat Hill (Sixth Ave Rise)",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO50",
+		"lat":37.514713,
+		"lon":-122.271156,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Solana",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO64",
+		"lat":37.511372,
+		"lon":-122.282333,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Central Belmont",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO65",
+		"lat":37.516483,
+		"lon":-122.291290,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Sterling Downs",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO47",
+		"lat":37.530006,
+		"lon":-122.284737,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Oak Knoll",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO12",
+		"lat":37.521564,
+		"lon":-122.293716,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Dartmouth",
+		"city":"San Carlos",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANCA58",
+		"lat":37.508995,
+		"lon":-122.282417,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Country Club Neighborhood, Belmont, CA",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO1",
+		"lat":37.517593,
+		"lon":-122.294197,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Belmont Valley View",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO30",
+		"lat":37.519596,
+		"lon":-122.294960,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Hillman",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO44",
+		"lat":37.525661,
+		"lon":-122.293861,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Alden",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO31",
+		"lat":37.515701,
+		"lon":-122.295326,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Lauriedale",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA31",
+		"lat":37.532112,
+		"lon":-122.286057,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"WestArguello",
+		"city":"San Carlos",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANCA67",
+		"lat":37.506939,
+		"lon":-122.280083,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Cordes South",
+		"city":"San Carlos",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANCA62",
+		"lat":37.507797,
+		"lon":-122.273613,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Belmont - Island Park",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO5",
+		"lat":37.532478,
+		"lon":-122.268440,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Chestnut St",
+		"city":"San Carlos",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANCA13",
+		"lat":37.507992,
+		"lon":-122.267227,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"North Cipriani",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO2",
+		"lat":37.521912,
+		"lon":-122.300591,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Westwood Knolls",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA69",
+		"lat":37.526077,
+		"lon":-122.299431,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Ewell",
+		"city":"Belmont",
+		"state":"CA",
+		"country":"US",
+		"id":"KCABELMO33",
+		"lat":37.512722,
+		"lon":-122.298889,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Knolls",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA271",
+		"lat":37.527191,
+		"lon":-122.299652,
+		"distance_km":1,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"KJ6GEA Colegrove Ct",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA52",
+		"lat":37.533016,
+		"lon":-122.296768,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Cordes",
+		"city":"San Carlos",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANCA78",
+		"lat":37.503632,
+		"lon":-122.268593,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Devonshire Canyon",
+		"city":"San Carlos",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANCA61",
+		"lat":37.499859,
+		"lon":-122.273880,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Fay",
+		"city":"San Carlos",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANCA59",
+		"lat":37.498325,
+		"lon":-122.278763,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"611 Highview Ct, San Mateo, CA",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA269",
+		"lat":37.521545,
+		"lon":-122.307739,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"37th Ave, USA",
+		"city":"San Mateo",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANMA296",
+		"lat":37.530560,
+		"lon":-122.304802,
+		"distance_km":2,
+		"distance_mi":1
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Belmont, CA",
+		"city":"Belmont",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94002",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.52000046",
+		"longitude":"-122.27999878",
+		"elevation":"13.1"
+		},
+		"observation_location": {
+		"full":"San Carlos, California",
+		"city":"San Carlos",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.52",
+		"longitude":"-122.28",
+		"elevation":"75 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCABELMO42",
+		"observation_time":"Last Updated on February 24, 10:00 AM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 10:00:21 -0800",
+		"observation_epoch":"1551031221",
+		"local_time_rfc822":"Sun, 24 Feb 2019 10:01:49 -0800",
+		"local_epoch":"1551031309",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Mostly Cloudy",
+		"temperature_string":"54.8 F (12.7 C)",
+		"temp_f":54.8,
+		"temp_c":12.7,
+		"relative_humidity":"72%",
+		"wind_string":"From the East at 1 MPH Gusting to 6.0 MPH",
+		"wind_dir":"East",
+		"wind_degrees":84,
+		"wind_mph":1,
+		"wind_gust_mph":"6.0",
+		"wind_kph":1.6,
+		"wind_gust_kph":"9.7",
+		"pressure_mb":"1025",
+		"pressure_in":"30.26",
+		"pressure_trend":"-",
+		"dewpoint_string":"46 F (8 C)",
+		"dewpoint_f":46,
+		"dewpoint_c":8,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"54.8 F (12.7 C)",
+		"feelslike_f":"54.8",
+		"feelslike_c":"12.7",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"332",
+		"UV":"1.4","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.01 in (0 mm)",
+		"precip_today_in":"0.01",
+		"precip_today_metric":"0",
+		"icon":"mostlycloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/mostlycloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/Belmont.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCABELMO42",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.521549,-122.278847",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"8:58 AM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Cloudy. High near 55F. Winds WSW at 5 to 10 mph.",
+		"fcttext_metric":"Cloudy skies. High 13C. Winds WSW at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Cloudy. Low 46F. Winds S at 5 to 10 mph.",
+		"fcttext_metric":"Overcast. Low 8C. Winds S at 10 to 15 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Rain showers in the morning will evolve into a more steady rain in the afternoon. High 56F. Winds S at 15 to 25 mph. Chance of rain 90%. Rainfall around a quarter of an inch.",
+		"fcttext_metric":"Rain showers in the morning will evolve into a more steady rain in the afternoon. High 13C. Winds S at 25 to 40 km/h. Chance of rain 90%. Rainfall around 6mm.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Rain. Low 53F. Winds S at 15 to 25 mph. Chance of rain 80%. 1 to 2 inches of rain expected.",
+		"fcttext_metric":"Rain. Low 12C. Winds S at 25 to 40 km/h. Chance of rain 80%. 25 to 50mm of rain expected.",
+		"pop":"80"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Rain. Becoming windy in the afternoon. High 58F. Winds S at 20 to 30 mph. Chance of rain 100%. Rainfall near an inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"Periods of rain. Becoming windy in the afternoon. High 14C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall may reach 25mm. Locally heavy rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Windy. A steady rain early with showers and perhaps a rumble of thunder developing late. Low 53F. Winds S at 20 to 30 mph. Chance of rain 100%.",
+		"fcttext_metric":"Windy with thundershowers following a period of rain early. Low 12C. Winds S at 30 to 50 km/h. Chance of rain 100%.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Overcast with rain showers at times. High 59F. Winds SSW at 10 to 15 mph. Chance of rain 60%.",
+		"fcttext_metric":"Cloudy with occasional rain showers. High around 15C. Winds SSW at 15 to 25 km/h. Chance of rain 60%.",
+		"pop":"60"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_chancerain.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Rain showers early with overcast skies late. Low 47F. Winds WSW at 5 to 10 mph. Chance of rain 40%.",
+		"fcttext_metric":"Rain showers early with overcast skies late. Low 8C. Winds WSW at 10 to 15 km/h. Chance of rain 40%.",
+		"pop":"40"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"46",
+		"celsius":"8"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 10,
+		"kph": 16,
+		"dir": "WSW",
+		"degrees": 243
+		},
+		"avewind": {
+		"mph": 7,
+		"kph": 11,
+		"dir": "WSW",
+		"degrees": 243
+		},
+		"avehumidity": 68,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"56",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":90,
+		"qpf_allday": {
+		"in": 1.64,
+		"mm": 42
+		},
+		"qpf_day": {
+		"in": 0.35,
+		"mm": 9
+		},
+		"qpf_night": {
+		"in": 1.29,
+		"mm": 33
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "S",
+		"degrees": 179
+		},
+		"avewind": {
+		"mph": 19,
+		"kph": 31,
+		"dir": "S",
+		"degrees": 179
+		},
+		"avehumidity": 76,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"58",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.60,
+		"mm": 41
+		},
+		"qpf_day": {
+		"in": 0.87,
+		"mm": 22
+		},
+		"qpf_night": {
+		"in": 0.73,
+		"mm": 19
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 30,
+		"kph": 48,
+		"dir": "S",
+		"degrees": 175
+		},
+		"avewind": {
+		"mph": 22,
+		"kph": 35,
+		"dir": "S",
+		"degrees": 175
+		},
+		"avehumidity": 81,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"59",
+		"celsius":"15"
+		},
+		"low": {
+		"fahrenheit":"47",
+		"celsius":"8"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":60,
+		"qpf_allday": {
+		"in": 0.03,
+		"mm": 1
+		},
+		"qpf_day": {
+		"in": 0.03,
+		"mm": 1
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SSW",
+		"degrees": 209
+		},
+		"avewind": {
+		"mph": 12,
+		"kph": 19,
+		"dir": "SSW",
+		"degrees": 209
+		},
+		"avehumidity": 80,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}

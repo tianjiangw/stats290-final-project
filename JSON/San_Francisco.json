@@ -1,0 +1,759 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "forecast": 1
+  ,
+  "geolookup": 1
+  ,
+  "conditions": 1
+  }
+	}
+		,	"location": {
+		"type":"CITY",
+		"country":"US",
+		"country_iso3166":"US",
+		"country_name":"USA",
+		"state":"CA",
+		"city":"San Francisco",
+		"tz_short":"PST",
+		"tz_long":"America/Los_Angeles",
+		"lat":"37.77999878",
+		"lon":"-122.41999817",
+		"zip":"94102",
+		"magic":"1",
+		"wmo":"99999",
+		"l":"/q/zmw:94102.1.99999",
+		"requesturl":"US/CA/San_Francisco.html",
+		"wuiurl":"https://www.wunderground.com/US/CA/San_Francisco.html",
+		"nearby_weather_stations": {
+		"airport": {
+		"station": [
+		{ "city":"San Francisco", "state":"CA", "country":"US", "icao":"KSFO", "lat":"37.61999893", "lon":"-122.37000275" }
+		,{ "city":"Oakland", "state":"CA", "country":"US", "icao":"KOAK", "lat":"37.72000122", "lon":"-122.22000122" }
+		,{ "city":"Hayward", "state":"CA", "country":"US", "icao":"KHWD", "lat":"37.65999985", "lon":"-122.12000275" }
+		,{ "city":"Half Moon Bay", "state":"CA", "country":"US", "icao":"KHAF", "lat":"37.50999832", "lon":"-122.50000000" }
+		]
+		}
+		,
+		"pws": {
+		"station": [
+		{
+		"neighborhood":"Utopia Road",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1375",
+		"lat":37.774899,
+		"lon":-122.419403,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"South of Market",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1370",
+		"lat":37.780041,
+		"lon":-122.409683,
+		"distance_km":0,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Western Addition",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1139",
+		"lat":37.781612,
+		"lon":-122.431908,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"SOMA",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR131",
+		"lat":37.778488,
+		"lon":-122.407997,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"North Mission (Valencia and Market)",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR49",
+		"lat":37.770599,
+		"lon":-122.423500,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Lower Haight",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR438",
+		"lat":37.773457,
+		"lon":-122.433182,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Lower Haight",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR902",
+		"lat":37.771694,
+		"lon":-122.432228,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Mission Dolores",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1099",
+		"lat":37.766209,
+		"lon":-122.424431,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Western Addition",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1060",
+		"lat":37.782047,
+		"lon":-122.438248,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Mission (at Bar and Burrito)",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR142",
+		"lat":37.765530,
+		"lon":-122.422913,
+		"distance_km":1,
+		"distance_mi":0
+		},
+		{
+		"neighborhood":"Lower Pacific Heights",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1432",
+		"lat":37.786243,
+		"lon":-122.441620,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"ChiDi - IBM Cloud Video Offices",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR435",
+		"lat":37.793518,
+		"lon":-122.404121,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Mission Dolores [near Bi-Rite Market]",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1030",
+		"lat":37.761509,
+		"lon":-122.424606,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"East Mission",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1075",
+		"lat":37.761887,
+		"lon":-122.411613,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Central SOMA",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1156",
+		"lat":37.778145,
+		"lon":-122.394989,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"The Castro",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR366",
+		"lat":37.761604,
+		"lon":-122.430000,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Pacific Heights",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR646",
+		"lat":37.792049,
+		"lon":-122.440247,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Cow Hollow",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1429",
+		"lat":37.799282,
+		"lon":-122.428329,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Wind and Rain",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1439",
+		"lat":37.780071,
+		"lon":-122.445839,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Mission Creek",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1104",
+		"lat":37.772312,
+		"lon":-122.395493,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"SOMA South Park",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR327",
+		"lat":37.782135,
+		"lon":-122.393753,
+		"distance_km":2,
+		"distance_mi":1
+		},
+		{
+		"neighborhood":"Children\u0027s Day School - Mission District",
+		"city":"San Francisco",
+		"state":"CA",
+		"country":"US",
+		"id":"KCASANFR1150",
+		"lat":37.759605,
+		"lon":-122.425537,
+		"distance_km":2,
+		"distance_mi":1
+		}
+		]
+		}
+		}
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"San Francisco, CA",
+		"city":"San Francisco",
+		"state":"CA",
+		"state_name":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"94102",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"37.77999878",
+		"longitude":"-122.41999817",
+		"elevation":"60.0"
+		},
+		"observation_location": {
+		"full":"San Francisco, California",
+		"city":"San Francisco",
+		"state":"California",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"37.77",
+		"longitude":"-122.42",
+		"elevation":"75 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KCASANFR1375",
+		"observation_time":"Last Updated on February 24, 9:43 AM PST",
+		"observation_time_rfc822":"Sun, 24 Feb 2019 09:43:49 -0800",
+		"observation_epoch":"1551030229",
+		"local_time_rfc822":"Sun, 24 Feb 2019 09:44:14 -0800",
+		"local_epoch":"1551030254",
+		"local_tz_short":"PST",
+		"local_tz_long":"America/Los_Angeles",
+		"local_tz_offset":"-0800",
+		"weather":"Overcast",
+		"temperature_string":"39.7 F (4.3 C)",
+		"temp_f":39.7,
+		"temp_c":4.3,
+		"relative_humidity":"75%",
+		"wind_string":"From the ESE at 3.6 MPH Gusting to 4.5 MPH",
+		"wind_dir":"ESE",
+		"wind_degrees":106,
+		"wind_mph":3.6,
+		"wind_gust_mph":"4.5",
+		"wind_kph":5.8,
+		"wind_gust_kph":"7.2",
+		"pressure_mb":"1024",
+		"pressure_in":"30.26",
+		"pressure_trend":"+",
+		"dewpoint_string":"32 F (0 C)",
+		"dewpoint_f":32,
+		"dewpoint_c":0,
+		"heat_index_string":"NA",
+		"heat_index_f":"NA",
+		"heat_index_c":"NA",
+		"windchill_string":"37 F (3 C)",
+		"windchill_f":"37",
+		"windchill_c":"3",
+		"feelslike_string":"37 F (3 C)",
+		"feelslike_f":"37",
+		"feelslike_c":"3",
+		"visibility_mi":"10.0",
+		"visibility_km":"16.1",
+		"solarradiation":"211",
+		"UV":"2.0","precip_1hr_string":"0.00 in ( 0 mm)",
+		"precip_1hr_in":"0.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"0.00 in (0 mm)",
+		"precip_today_in":"0.00",
+		"precip_today_metric":"0",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"forecast_url":"http://www.wunderground.com/US/CA/San_Francisco.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KCASANFR1375",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=37.774899,-122.419403",
+		"nowcast":""
+	}
+		,
+	"forecast":{
+		"txt_forecast": {
+		"date":"8:32 AM PST",
+		"forecastday": [
+		{
+		"period":0,
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"title":"Sunday",
+		"fcttext":"Overcast. High 54F. Winds SW at 10 to 15 mph.",
+		"fcttext_metric":"Cloudy skies. High 12C. Winds SW at 15 to 25 km/h.",
+		"pop":"10"
+		}
+		,
+		{
+		"period":1,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Sunday Night",
+		"fcttext":"Cloudy. Low 49F. Winds S at 10 to 15 mph.",
+		"fcttext_metric":"Cloudy. Low 9C. Winds S at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		,
+		{
+		"period":2,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Monday",
+		"fcttext":"Showers in the morning, then becoming windy with a steady rain in the afternoon. High around 55F. Winds S at 25 to 35 mph. Chance of rain 100%. Rainfall near a half an inch.",
+		"fcttext_metric":"Rain showers early with a steady, soaking rain later in the day. Increasing winds. High 13C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall around 12mm.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":3,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Monday Night",
+		"fcttext":"Rain and wind. Low 54F. Winds S at 25 to 35 mph. Chance of rain 90%. Rainfall may reach one inch.",
+		"fcttext_metric":"Windy with rain likely. Low 12C. Winds S at 30 to 50 km/h. Chance of rain 90%. Rainfall near 25mm.",
+		"pop":"90"
+		}
+		,
+		{
+		"period":4,
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"title":"Tuesday",
+		"fcttext":"Cloudy and windy with periods of rain. High 57F. Winds S at 25 to 35 mph. Chance of rain 100%. Rainfall may reach one inch. Locally heavy rainfall possible.",
+		"fcttext_metric":"Windy with rain likely. High 14C. Winds S at 30 to 50 km/h. Chance of rain 100%. Rainfall near 25mm. Locally heavy rainfall possible.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":5,
+		"icon":"nt_rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_rain.gif",
+		"title":"Tuesday Night",
+		"fcttext":"Windy with periods of rain. Low 53F. Winds S at 25 to 35 mph. Chance of rain 100%. Rainfall near an inch.",
+		"fcttext_metric":"Rain and wind. Low 12C. Winds S at 40 to 55 km/h. Chance of rain 100%. Rainfall possibly over 25mm.",
+		"pop":"100"
+		}
+		,
+		{
+		"period":6,
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"title":"Wednesday",
+		"fcttext":"Overcast with rain showers at times. High 57F. Winds SW at 10 to 20 mph. Chance of rain 50%.",
+		"fcttext_metric":"Cloudy with occasional rain showers. High 14C. Winds SW at 15 to 30 km/h. Chance of rain 50%.",
+		"pop":"50"
+		}
+		,
+		{
+		"period":7,
+		"icon":"nt_cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/nt_cloudy.gif",
+		"title":"Wednesday Night",
+		"fcttext":"Cloudy. Low 48F. Winds WSW at 10 to 15 mph.",
+		"fcttext_metric":"Cloudy. Low 9C. Winds WSW at 15 to 25 km/h.",
+		"pop":"20"
+		}
+		]
+		},
+		"simpleforecast": {
+		"forecastday": [
+		{"date":{
+	"epoch":"1551063600",
+	"pretty":"7:00 PM PST on February 24, 2019",
+	"day":24,
+	"month":2,
+	"year":2019,
+	"yday":54,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Sun",
+	"weekday":"Sunday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":1,
+		"high": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"low": {
+		"fahrenheit":"49",
+		"celsius":"9"
+		},
+		"conditions":"Overcast",
+		"icon":"cloudy",
+		"icon_url":"http://icons.wxug.com/i/c/k/cloudy.gif",
+		"skyicon":"",
+		"pop":10,
+		"qpf_allday": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 15,
+		"kph": 24,
+		"dir": "SW",
+		"degrees": 228
+		},
+		"avewind": {
+		"mph": 11,
+		"kph": 18,
+		"dir": "SW",
+		"degrees": 228
+		},
+		"avehumidity": 71,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551150000",
+	"pretty":"7:00 PM PST on February 25, 2019",
+	"day":25,
+	"month":2,
+	"year":2019,
+	"yday":55,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Mon",
+	"weekday":"Monday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":2,
+		"high": {
+		"fahrenheit":"55",
+		"celsius":"13"
+		},
+		"low": {
+		"fahrenheit":"54",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.58,
+		"mm": 40
+		},
+		"qpf_day": {
+		"in": 0.43,
+		"mm": 11
+		},
+		"qpf_night": {
+		"in": 1.15,
+		"mm": 29
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 35,
+		"kph": 56,
+		"dir": "S",
+		"degrees": 176
+		},
+		"avewind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "S",
+		"degrees": 176
+		},
+		"avehumidity": 79,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551236400",
+	"pretty":"7:00 PM PST on February 26, 2019",
+	"day":26,
+	"month":2,
+	"year":2019,
+	"yday":56,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Tue",
+	"weekday":"Tuesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":3,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"53",
+		"celsius":"12"
+		},
+		"conditions":"Rain",
+		"icon":"rain",
+		"icon_url":"http://icons.wxug.com/i/c/k/rain.gif",
+		"skyicon":"",
+		"pop":100,
+		"qpf_allday": {
+		"in": 1.75,
+		"mm": 44
+		},
+		"qpf_day": {
+		"in": 1.00,
+		"mm": 25
+		},
+		"qpf_night": {
+		"in": 0.75,
+		"mm": 19
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 35,
+		"kph": 56,
+		"dir": "S",
+		"degrees": 175
+		},
+		"avewind": {
+		"mph": 25,
+		"kph": 40,
+		"dir": "S",
+		"degrees": 175
+		},
+		"avehumidity": 83,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		,
+		{"date":{
+	"epoch":"1551322800",
+	"pretty":"7:00 PM PST on February 27, 2019",
+	"day":27,
+	"month":2,
+	"year":2019,
+	"yday":57,
+	"hour":19,
+	"min":"00",
+	"sec":0,
+	"isdst":"0",
+	"monthname":"February",
+	"monthname_short":"Feb",
+	"weekday_short":"Wed",
+	"weekday":"Wednesday",
+	"ampm":"PM",
+	"tz_short":"PST",
+	"tz_long":"America/Los_Angeles"
+},
+		"period":4,
+		"high": {
+		"fahrenheit":"57",
+		"celsius":"14"
+		},
+		"low": {
+		"fahrenheit":"48",
+		"celsius":"9"
+		},
+		"conditions":"Chance of Rain",
+		"icon":"chancerain",
+		"icon_url":"http://icons.wxug.com/i/c/k/chancerain.gif",
+		"skyicon":"",
+		"pop":50,
+		"qpf_allday": {
+		"in": 0.01,
+		"mm": 0
+		},
+		"qpf_day": {
+		"in": 0.01,
+		"mm": 0
+		},
+		"qpf_night": {
+		"in": 0.00,
+		"mm": 0
+		},
+		"snow_allday": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_day": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"snow_night": {
+		"in": 0.0,
+		"cm": 0.0
+		},
+		"maxwind": {
+		"mph": 20,
+		"kph": 32,
+		"dir": "SW",
+		"degrees": 216
+		},
+		"avewind": {
+		"mph": 14,
+		"kph": 23,
+		"dir": "SW",
+		"degrees": 216
+		},
+		"avehumidity": 82,
+		"maxhumidity": 0,
+		"minhumidity": 0
+		}
+		]
+		}
+	}
+}
