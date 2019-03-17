@@ -1,0 +1,19 @@
+airport                 airport data for 290 final project
+history_humidity_daily
+                        Plot_humidity_daily
+history_humidity_month
+                        Plot_humidity_monthly
+history_temp_daily      Plot_temperature_daily
+history_temp_month      Plot_temperature_monthly
+history_weather         history weather
+location_city           location_city data for 290 final project
+nearby_pws_city         List all PWS nearby the city selected
+nearby_pws_coordinates
+                        List all PWS nearby given coordinates and
+                        distance
+pws                     pws data for 290 final project
+runWeatherUI            run shiny WeatherUI
+weather_airport         weather_airport data for 290 final project
+weather_map             Create a ggplot map using google map
+weather_pws             weather_pws data for 290 final project
+weather_windrose        Weather WindRose

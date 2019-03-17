@@ -1,0 +1,285 @@
+pkgname <- "stat290.finalproject"
+source(file.path(R.home("share"), "R", "examples-header.R"))
+options(warn = 1)
+options(pager = "console")
+base::assign(".ExTimings", "stat290.finalproject-Ex.timings", pos = 'CheckExEnv')
+base::cat("name\tuser\tsystem\telapsed\n", file=base::get(".ExTimings", pos = 'CheckExEnv'))
+base::assign(".format_ptime",
+function(x) {
+  if(!is.na(x[4L])) x[1L] <- x[1L] + x[4L]
+  if(!is.na(x[5L])) x[2L] <- x[2L] + x[5L]
+  options(OutDec = '.')
+  format(x[1L:3L], digits = 7L)
+},
+pos = 'CheckExEnv')
+
+### * </HEADER>
+library('stat290.finalproject')
+
+base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
+base::assign(".old_wd", base::getwd(), pos = 'CheckExEnv')
+cleanEx()
+nameEx("history_humidity_daily")
+### * history_humidity_daily
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: history_humidity_daily
+### Title: Plot_humidity_daily
+### Aliases: history_humidity_daily
+### Keywords: by date humidity
+
+### ** Examples
+
+## Not run: 
+##D d1="2018-06-01"
+##D d2="2018-12-31"
+##D city="Alameda"
+##D history_weather_tbl=history_weather(city_name = city,start_date=d1,end_date=d2)
+##D history_humidity_daily(df=history_weather_tbl)
+## End(Not run)
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("history_humidity_daily", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("history_humidity_month")
+### * history_humidity_month
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: history_humidity_month
+### Title: Plot_humidity_monthly
+### Aliases: history_humidity_month
+
+### ** Examples
+
+## Not run: 
+##D d1="2018-06-01"
+##D d2="2018-12-31"
+##D city="Alameda"
+##D history_weather_tbl=history_weather(city_name = city,start_date=d1,end_date=d2)
+##D history_humidity_month(df=history_weather_tbl)
+## End(Not run)
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("history_humidity_month", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("history_temp_daily")
+### * history_temp_daily
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: history_temp_daily
+### Title: Plot_temperature_daily
+### Aliases: history_temp_daily
+### Keywords: by date temperature
+
+### ** Examples
+
+## Not run: 
+##D d1="2018-06-01"
+##D d2="2018-12-31"
+##D city="Alameda"
+##D history_weather_tbl=history_weather(city_name = city,start_date=d1,end_date=d2)
+##D history_temp_daily(df=history_weather_tbl)
+## End(Not run)
+
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("history_temp_daily", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("history_temp_month")
+### * history_temp_month
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: history_temp_month
+### Title: Plot_temperature_monthly
+### Aliases: history_temp_month
+### Keywords: by month temperature
+
+### ** Examples
+
+## Not run: 
+##D d1="2018-06-01"
+##D d2="2018-12-31"
+##D city="Alameda"
+##D history_weather_tbl=history_weather(city_name = city,start_date=d1,end_date=d2)
+##D history_temp_month(df=history_weather_tbl)
+## End(Not run)
+
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("history_temp_month", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("history_weather")
+### * history_weather
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: history_weather
+### Title: history weather
+### Aliases: history_weather
+### Keywords: history_weather
+
+### ** Examples
+
+## Not run: 
+##D c="Alameda"
+##D d1="2018-06-01"
+##D d2="2018-12-31"
+##D history_weather_tbl=history_weather(city_name = c,start_date=d1,end_date=d2)
+## End(Not run)
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("history_weather", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("nearby_pws_city")
+### * nearby_pws_city
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: nearby_pws_city
+### Title: List all PWS nearby the city selected
+### Aliases: nearby_pws_city
+### Keywords: nearby_pws_city
+
+### ** Examples
+
+## Not run: 
+##D pws_id_selected <- nearby_pws_city(city_name = "Alameda",check_date="2018-05-05")
+## End(Not run)
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("nearby_pws_city", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("nearby_pws_coordinates")
+### * nearby_pws_coordinates
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: nearby_pws_coordinates
+### Title: List all PWS nearby given coordinates and distance
+### Aliases: nearby_pws_coordinates
+### Keywords: nearby_pws_coordinates
+
+### ** Examples
+
+## Not run: 
+##D l1=-122.27999878
+##D l2=37.52000046
+##D dis=4000
+##D d="2018-05-05"
+##D pws_id_selected=nearby_pws_coordinates(lon=l1,lat=l2,distance = dis,data=pws,check_date = d)
+## End(Not run)
+
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("nearby_pws_coordinates", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("runWeatherUI")
+### * runWeatherUI
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: runWeatherUI
+### Title: run shiny WeatherUI
+### Aliases: runWeatherUI
+
+### ** Examples
+
+## Not run: 
+##D library(ggmap)
+##D library(gridExtra)
+##D stat290.finalproject::runWeatherUI()
+## End(Not run)
+
+
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("runWeatherUI", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("weather_map")
+### * weather_map
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: weather_map
+### Title: Create a ggplot map using google map
+### Aliases: weather_map
+### Keywords: weather_map
+
+### ** Examples
+
+## Not run: 
+##D library(ggplot2)
+##D library(ggmap)
+##D library(akima)
+##D pws_id_selected <- nearby_pws_city(city_name = "Alameda",check_date="2018-05-05")
+##D weather_map(df=pws_id_selected)
+## End(Not run)
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("weather_map", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+cleanEx()
+nameEx("weather_windrose")
+### * weather_windrose
+
+flush(stderr()); flush(stdout())
+
+base::assign(".ptime", proc.time(), pos = "CheckExEnv")
+### Name: weather_windrose
+### Title: Weather WindRose
+### Aliases: weather_windrose
+### Keywords: Weather WindRose
+
+### ** Examples
+
+## Not run: 
+##D df=history_weather(city_name = "Alameda",start_date="2018-06-01",end_date="2018-12-31")
+##D weather_windrose(data = df, spd = "wind_speed", dir = "wind_dir_degrees")
+## End(Not run)
+
+
+
+base::assign(".dptime", (proc.time() - get(".ptime", pos = "CheckExEnv")), pos = "CheckExEnv")
+base::cat("weather_windrose", base::get(".format_ptime", pos = 'CheckExEnv')(get(".dptime", pos = "CheckExEnv")), "\n", file=base::get(".ExTimings", pos = 'CheckExEnv'), append=TRUE, sep="\t")
+### * <FOOTER>
+###
+cleanEx()
+options(digits = 7L)
+base::cat("Time elapsed: ", proc.time() - base::get("ptime", pos = 'CheckExEnv'),"\n")
+grDevices::dev.off()
+###
+### Local variables: ***
+### mode: outline-minor ***
+### outline-regexp: "\\(> \\)?### [*]+" ***
+### End: ***
+quit('no')
