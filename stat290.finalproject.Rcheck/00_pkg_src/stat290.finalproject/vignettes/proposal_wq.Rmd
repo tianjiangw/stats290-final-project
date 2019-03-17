@@ -1,0 +1,133 @@
+---
+title: "Project Proposal"
+output:
+     html_document
+---
+
+__Proposal Deadline: Feb 3, 2019 23:59:00 hrs.__
+
+- Edit this markdown file by __replacing only__ what is there in the
+chunks named `q0`, `q1`, `q2`, ..., `q5` with your team's appropriate
+answers. These chunks have been filled in as an example using the
+OpenFDA data.
+
+- Upload the filled in markdown to the project proposal assignment
+area (will be created shortly) in every one of the team member's
+private directory with the name `proposal.Rmd`.
+
+0. Who are the authors of this package? See format below where you
+   should replace `sunet1`, `sunet2`, and `Full Name1` and `Full
+   Name2`.
+
+```{r q0}
+authors <- list(sunet1 = "Tianjiang Wang",
+                sunet2 = "Qinbo Qu")
+```
+
+1. What is your package trying to achieve?  Who is it aimed at?
+
+```q1
+
+1)  Visualization.  The package will visualize local weather data,
+particularly to compare data at nearby sites to show microclimate patterns.
+
+2)  Analysis.  It will also include three functions to analyze
+    1) Retrieve zip code from place name  
+    2) Find nearby populated cities 
+3)  other
+
+
+The package is to make the quality weather information available to people in U.S.
+
+```
+
+2. Briefly describe the background if that's not obvious.  What field
+   or area of interest is it related to?  (Just briefly, in a paragraph
+   or two, maximum.) References, including web references, are welcome
+   where available.
+   
+```q2
+
+This package design is inspired by personal Weather underground
+A link to the website is
+here
+
+https://www.wunderground.com/
+
+Personal weather station is very wide in scope, and we will narrow it down as
+below:
+
+1) The project will focus on a couple of geo locations
+2) Will test two statistical methods for predictor importance.
+```
+
+3. Provide one or two use cases; that is, in a sentence or so say how
+   you see someone using the package.
+
+```q3
+
+People will query the R package for local weather information. The queries
+will allow them to input person information.
+
+People can also visualize the results of their queries.
+
+People will also be able to utilize the analytical functions to
+weather forecast.
+
+Administrative organizations will query the R package for microclimate
+patterns in order to monitor the polution condition.These queries can
+also be parameterized by the user.
+
+```
+
+4. If you can, list the main functions or other software you plan on
+   including.  No need to implement anything now, but you should have
+   an idea.
+
+```q4
+
+The R package will provide the following functions: reading and
+writing data, creating graphs and visualizations, running
+parameterized queries against datasets, providing for download
+capabilibities of both data and graphics.  The R package will also
+provide functions for deep analysis by the user.
+
+```
+
+```{r, echo = FALSE, hide = FALSE}
+## Do not edit
+none <- "none"
+basic <- "basic"
+proficient <- "proficient"
+dangerous <- "dangerous :-)"
+```
+
+5. For languages C/C++, Java, Python, Ruby, please specify your
+   proficiency: Proficient, basic knowledge, no knowledge.  (This
+   helps us evaluate the proposal sometimes and offer suggestions.)
+
+```{r q5}
+languages <- list(
+    ## replace the sunet1 and sunet2 as you did above and edit
+    ## appropriately for each member
+    sunet1 = c(cxx = none,
+               java = none,
+               python = basic,
+               julia = none, 
+               ruby = none)
+    ,
+    sunet2 = c(cxx = none,
+               java = none,
+               python = basic,
+               julia = none,                
+               ruby = none)
+)
+```
+
+
+
+
+
+
+
+

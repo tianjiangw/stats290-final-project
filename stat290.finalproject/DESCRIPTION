@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "first.last@example.com")
 Description: What the package does (one paragraph).
-License: What license it uses
+License: GPL-2
 Encoding: UTF-8
 LazyData: true
 Imports:
@@ -16,10 +16,17 @@ Imports:
     dplyr,
     ggplot2,
     scales,
-    Rcpp
+    Rcpp,
+    RColorBrewer,
+    akima,geosphere,
+    ggmap,
+    gridExtra,
+    shiny,
+    tidyr,
+    rlang
 Suggests: 
     knitr,
     rmarkdown
 VignetteBuilder: knitr
 RoxygenNote: 6.1.1
-
+Depends: R (>= 2.10)
